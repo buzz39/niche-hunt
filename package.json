@@ -6,9 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test-setup": "node scripts/testSetup.js",
+    "collect": "node scripts/collectData.js",
+    "collect:test": "node scripts/collectData.js --limit 5",
+    "collect:50": "node scripts/collectData.js --limit 50"
   },
   "dependencies": {
+    "axios": "^1.13.5",
+    "dotenv": "^17.2.4",
+    "google-trends-api": "^4.9.2",
+    "googleapis": "^171.4.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3"
