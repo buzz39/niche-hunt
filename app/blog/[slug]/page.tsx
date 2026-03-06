@@ -75,7 +75,7 @@ export default async function BlogPost({ params }: Props) {
         {/* CTA */}
         <div className="my-12 p-8 rounded-2xl bg-gradient-to-r from-emerald-900/20 to-slate-900 border border-emerald-900/30 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Find Your Perfect YouTube Niche</h2>
-          <p className="text-slate-400 mb-6">46+ niches analyzed with YouTube API data. CPM estimates, difficulty scores, and trend data.</p>
+          <p className="text-slate-400 mb-6">170+ niches analyzed with YouTube API data. CPM estimates, difficulty scores, and trend data.</p>
           <Link href="/" className="inline-block px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold rounded-lg transition-all">
             Explore the Database — $9
           </Link>

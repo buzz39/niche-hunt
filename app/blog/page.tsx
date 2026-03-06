@@ -49,7 +49,7 @@ export default function BlogIndex() {
         {/* CTA */}
         <div className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-emerald-900/20 to-slate-900 border border-emerald-900/30 text-center">
           <h2 className="text-2xl font-bold text-white mb-3">Ready to Find Your Niche?</h2>
-          <p className="text-slate-400 mb-6">46+ YouTube niches with CPM data, difficulty scores, and trend analysis.</p>
+          <p className="text-slate-400 mb-6">170+ YouTube niches with CPM data, difficulty scores, and trend analysis.</p>
           <Link href="/" className="inline-block px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold rounded-lg transition-all">
             Explore the Database →
           </Link>

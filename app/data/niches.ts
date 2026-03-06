@@ -1,5 +1,5 @@
-// Auto-generated on 2026-02-11T07:34:00.930Z
-// Total niches: 46
+// Auto-generated on 2026-03-06T13:37:33.381Z
+// Total niches: 170
 
 export interface Niche {
   id: number;
@@ -1177,5 +1177,3105 @@ export const niches: Niche[] = [
     "lastUpdated": "2026-02-11T07:32:13.897Z",
     "description": "High competition market requiring strong content differentiation.",
     "id": 46
+  },
+  {
+    "name": "Minimalist Living",
+    "keyword": "minimalist living",
+    "category": "lifestyle",
+    "difficulty": "Medium",
+    "difficultyScore": 58,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 143425,
+      "avgViews": 4601884,
+      "topChannelSubs": 274872,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.39",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 51
+    },
+    "lastUpdated": "2026-03-06T13:37:33.378Z",
+    "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
+    "id": 47
+  },
+  {
+    "name": "Tiny House Tour",
+    "keyword": "tiny house tour",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 77,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 524163,
+      "avgViews": 4902185,
+      "topChannelSubs": 3047933,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.53",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 72
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 48
+  },
+  {
+    "name": "Van Life",
+    "keyword": "van life",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 20,
+      "avgSubscribers": 174979,
+      "avgViews": 8443300,
+      "topChannelSubs": 1766989,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.86",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 46
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 49
+  },
+  {
+    "name": "Sustainable Living",
+    "keyword": "sustainable living",
+    "category": "lifestyle",
+    "difficulty": "Medium",
+    "difficultyScore": 60,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 30,
+      "avgSubscribers": 44627,
+      "avgViews": 1276600,
+      "topChannelSubs": 1491512,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.82",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 85
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 50
+  },
+  {
+    "name": "Morning Routines",
+    "keyword": "morning routines",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 71,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 22,
+      "avgSubscribers": 280605,
+      "avgViews": 6943884,
+      "topChannelSubs": 14128776,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.25",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 48
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 51
+  },
+  {
+    "name": "Book Reviews",
+    "keyword": "book reviews",
+    "category": "lifestyle",
+    "difficulty": "Medium",
+    "difficultyScore": 37,
+    "cpm": "$8-$18",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 47,
+      "avgSubscribers": 73884,
+      "avgViews": 1821145,
+      "topChannelSubs": 216677,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.83",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 32
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 52
+  },
+  {
+    "name": "Travel Hacks",
+    "keyword": "travel hacks",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 83,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 266662,
+      "avgViews": 4233191,
+      "topChannelSubs": 4365676,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.56",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 53
+  },
+  {
+    "name": "Budget Travel",
+    "keyword": "budget travel",
+    "category": "lifestyle",
+    "difficulty": "Low",
+    "difficultyScore": 24,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 51432,
+      "avgViews": 893610,
+      "topChannelSubs": 109436,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.10",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 46
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 54
+  },
+  {
+    "name": "Urban Gardening",
+    "keyword": "urban gardening",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 80,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 20,
+      "avgSubscribers": 688135,
+      "avgViews": 31352202,
+      "topChannelSubs": 10584784,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.02",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 73
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 55
+  },
+  {
+    "name": "Home Organization",
+    "keyword": "home organization",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 421582,
+      "avgViews": 12540287,
+      "topChannelSubs": 6176303,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.86",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 70
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 56
+  },
+  {
+    "name": "Decluttering Tips",
+    "keyword": "decluttering tips",
+    "category": "lifestyle",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$8-$18",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 232820,
+      "avgViews": 5333267,
+      "topChannelSubs": 4890459,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.25",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 75
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 57
+  },
+  {
+    "name": "Frugal Living",
+    "keyword": "frugal living",
+    "category": "lifestyle",
+    "difficulty": "Low",
+    "difficultyScore": 23,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 29,
+      "avgSubscribers": 9442,
+      "avgViews": 383547,
+      "topChannelSubs": 308669,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.07",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 71
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 58
+  },
+  {
+    "name": "Excel Tutorials",
+    "keyword": "excel tutorials",
+    "category": "education",
+    "difficulty": "Low",
+    "difficultyScore": 26,
+    "cpm": "$18-$28",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 48895,
+      "avgViews": 986342,
+      "topChannelSubs": 281932,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.47",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 56
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 59
+  },
+  {
+    "name": "Google Sheets Automation",
+    "keyword": "google sheets automation",
+    "category": "education",
+    "difficulty": "High",
+    "difficultyScore": 75,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 31,
+      "avgSubscribers": 250670,
+      "avgViews": 11853470,
+      "topChannelSubs": 3398778,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.90",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 50
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 60
+  },
+  {
+    "name": "Data Analysis",
+    "keyword": "data analysis",
+    "category": "education",
+    "difficulty": "Medium",
+    "difficultyScore": 54,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 21,
+      "avgSubscribers": 41018,
+      "avgViews": 1668479,
+      "topChannelSubs": 502831,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.91",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 72
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 61
+  },
+  {
+    "name": "Photoshop Tutorials",
+    "keyword": "photoshop tutorials",
+    "category": "education",
+    "difficulty": "Medium",
+    "difficultyScore": 35,
+    "cpm": "$18-$28",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 114426,
+      "avgViews": 2664365,
+      "topChannelSubs": 589148,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.82",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 36
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 62
+  },
+  {
+    "name": "Video Editing Tips",
+    "keyword": "video editing tips",
+    "category": "education",
+    "difficulty": "Low",
+    "difficultyScore": 19,
+    "cpm": "$18-$28",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 33133,
+      "avgViews": 1135907,
+      "topChannelSubs": 179653,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.30",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 25
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 63
+  },
+  {
+    "name": "Language Learning",
+    "keyword": "language learning",
+    "category": "education",
+    "difficulty": "Low",
+    "difficultyScore": 10,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 47,
+      "avgSubscribers": 42691,
+      "avgViews": 811243,
+      "topChannelSubs": 239463,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.15",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 38
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 64
+  },
+  {
+    "name": "Study Techniques",
+    "keyword": "study techniques",
+    "category": "education",
+    "difficulty": "High",
+    "difficultyScore": 79,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 29,
+      "avgSubscribers": 230569,
+      "avgViews": 9007653,
+      "topChannelSubs": 13318595,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.86",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 65
+  },
+  {
+    "name": "Online Courses Review",
+    "keyword": "online courses review",
+    "category": "education",
+    "difficulty": "Medium",
+    "difficultyScore": 55,
+    "cpm": "$18-$28",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 41,
+      "avgSubscribers": 196638,
+      "avgViews": 3948080,
+      "topChannelSubs": 671090,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.55",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 82
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 66
+  },
+  {
+    "name": "Career Advice",
+    "keyword": "career advice",
+    "category": "education",
+    "difficulty": "High",
+    "difficultyScore": 85,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 46,
+      "avgSubscribers": 739631,
+      "avgViews": 13163881,
+      "topChannelSubs": 9753750,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.71",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 84
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 67
+  },
+  {
+    "name": "Resume Tips",
+    "keyword": "resume tips",
+    "category": "education",
+    "difficulty": "High",
+    "difficultyScore": 70,
+    "cpm": "$18-$28",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 35,
+      "avgSubscribers": 174692,
+      "avgViews": 8699447,
+      "topChannelSubs": 13233910,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.40",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 56
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 68
+  },
+  {
+    "name": "Interview Preparation",
+    "keyword": "interview preparation",
+    "category": "education",
+    "difficulty": "Medium",
+    "difficultyScore": 55,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 25,
+      "avgSubscribers": 89091,
+      "avgViews": 722678,
+      "topChannelSubs": 1406684,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.55",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 77
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 69
+  },
+  {
+    "name": "Skill Development",
+    "keyword": "skill development",
+    "category": "education",
+    "difficulty": "Low",
+    "difficultyScore": 13,
+    "cpm": "$18-$28",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 22,
+      "avgSubscribers": 57093,
+      "avgViews": 924746,
+      "topChannelSubs": 283425,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.24",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 50
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 70
+  },
+  {
+    "name": "Home Renovation",
+    "keyword": "home renovation",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 78,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 23,
+      "avgSubscribers": 564334,
+      "avgViews": 25895881,
+      "topChannelSubs": 8514137,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.47",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 78
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 71
+  },
+  {
+    "name": "Diy Projects",
+    "keyword": "DIY projects",
+    "category": "home",
+    "difficulty": "Low",
+    "difficultyScore": 16,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 33226,
+      "avgViews": 615282,
+      "topChannelSubs": 124802,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.38",
+      "uploadFrequency": 4
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 28
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 72
+  },
+  {
+    "name": "Interior Design",
+    "keyword": "interior design",
+    "category": "home",
+    "difficulty": "Medium",
+    "difficultyScore": 57,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 21,
+      "avgSubscribers": 99867,
+      "avgViews": 2068922,
+      "topChannelSubs": 1282027,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.29",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 73
+  },
+  {
+    "name": "Smart Home Setup",
+    "keyword": "smart home setup",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 74,
+    "cpm": "$12-$22",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 22,
+      "avgSubscribers": 350361,
+      "avgViews": 17163162,
+      "topChannelSubs": 4009200,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.87",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 79
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 74
+  },
+  {
+    "name": "Home Office Setup",
+    "keyword": "home office setup",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 88,
+    "cpm": "$12-$22",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 27,
+      "avgSubscribers": 685952,
+      "avgViews": 9960808,
+      "topChannelSubs": 3325998,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.31",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 75
+  },
+  {
+    "name": "Ergonomic Furniture",
+    "keyword": "ergonomic furniture",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 88,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 33,
+      "avgSubscribers": 792342,
+      "avgViews": 37087868,
+      "topChannelSubs": 1714277,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.79",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 55
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 76
+  },
+  {
+    "name": "Gardening Tips",
+    "keyword": "gardening tips",
+    "category": "home",
+    "difficulty": "Medium",
+    "difficultyScore": 45,
+    "cpm": "$12-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 169274,
+      "avgViews": 4507216,
+      "topChannelSubs": 925674,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.19",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 52
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 77
+  },
+  {
+    "name": "Home Improvement",
+    "keyword": "home improvement",
+    "category": "home",
+    "difficulty": "Medium",
+    "difficultyScore": 54,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 49,
+      "avgSubscribers": 88586,
+      "avgViews": 3315156,
+      "topChannelSubs": 1233902,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.63",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 48
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 78
+  },
+  {
+    "name": "Furniture Makeover",
+    "keyword": "furniture makeover",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 75,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 31,
+      "avgSubscribers": 656138,
+      "avgViews": 12675600,
+      "topChannelSubs": 6143197,
+      "competitionLevel": "High",
+      "avgEngagementRate": "5.46",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 79
+  },
+  {
+    "name": "Kitchen Organization",
+    "keyword": "kitchen organization",
+    "category": "home",
+    "difficulty": "High",
+    "difficultyScore": 71,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 136711,
+      "avgViews": 6665837,
+      "topChannelSubs": 4607461,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.86",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 79
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 80
+  },
+  {
+    "name": "Bathroom Remodel",
+    "keyword": "bathroom remodel",
+    "category": "home",
+    "difficulty": "Low",
+    "difficultyScore": 28,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 49,
+      "avgSubscribers": 55327,
+      "avgViews": 1177340,
+      "topChannelSubs": 352790,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.21",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 25
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 81
+  },
+  {
+    "name": "Woodworking Projects",
+    "keyword": "woodworking projects",
+    "category": "home",
+    "difficulty": "Low",
+    "difficultyScore": 15,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 44,
+      "avgSubscribers": 57090,
+      "avgViews": 528251,
+      "topChannelSubs": 272659,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "0.71",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 67
+    },
+    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 82
+  },
+  {
+    "name": "Car Reviews",
+    "keyword": "car reviews",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 45,
+    "cpm": "$15-$25",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 44,
+      "avgSubscribers": 99055,
+      "avgViews": 4819622,
+      "topChannelSubs": 1369905,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.69",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 48
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 83
+  },
+  {
+    "name": "Electric Vehicle Comparison",
+    "keyword": "electric vehicle comparison",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 55,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 23,
+      "avgSubscribers": 62646,
+      "avgViews": 675251,
+      "topChannelSubs": 315624,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.32",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 59
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 84
+  },
+  {
+    "name": "Motorcycle Reviews",
+    "keyword": "motorcycle reviews",
+    "category": "automotive",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$15-$25",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 49,
+      "avgSubscribers": 540587,
+      "avgViews": 25563087,
+      "topChannelSubs": 1577299,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.27",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 83
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 85
+  },
+  {
+    "name": "Auto Detailing",
+    "keyword": "auto detailing",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 57,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 27,
+      "avgSubscribers": 146607,
+      "avgViews": 4464885,
+      "topChannelSubs": 803260,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.02",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 75
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 86
+  },
+  {
+    "name": "Car Modification",
+    "keyword": "car modification",
+    "category": "automotive",
+    "difficulty": "High",
+    "difficultyScore": 67,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 136964,
+      "avgViews": 1823779,
+      "topChannelSubs": 12801694,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.94",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 75
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 87
+  },
+  {
+    "name": "Road Trips",
+    "keyword": "road trips",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 59,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 27,
+      "avgSubscribers": 86887,
+      "avgViews": 2361108,
+      "topChannelSubs": 414252,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.96",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 48
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 88
+  },
+  {
+    "name": "Rv Living",
+    "keyword": "RV living",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 44,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 77940,
+      "avgViews": 1747114,
+      "topChannelSubs": 1067537,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.35",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 89
+  },
+  {
+    "name": "Car Buying Guide",
+    "keyword": "car buying guide",
+    "category": "automotive",
+    "difficulty": "High",
+    "difficultyScore": 84,
+    "cpm": "$15-$25",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 47,
+      "avgSubscribers": 623973,
+      "avgViews": 17668352,
+      "topChannelSubs": 6347821,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.51",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 47
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 90
+  },
+  {
+    "name": "Automotive Technology",
+    "keyword": "automotive technology",
+    "category": "automotive",
+    "difficulty": "Medium",
+    "difficultyScore": 48,
+    "cpm": "$15-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 41,
+      "avgSubscribers": 140414,
+      "avgViews": 2649646,
+      "topChannelSubs": 1364793,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.17",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 75
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 91
+  },
+  {
+    "name": "Gaming Tutorials",
+    "keyword": "gaming tutorials",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$5-$12",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 45,
+      "avgSubscribers": 287112,
+      "avgViews": 5618038,
+      "topChannelSubs": 3434301,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.59",
+      "uploadFrequency": 4
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 76
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 92
+  },
+  {
+    "name": "Game Reviews",
+    "keyword": "game reviews",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 67,
+    "cpm": "$5-$12",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 302810,
+      "avgViews": 12021084,
+      "topChannelSubs": 6776786,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.88",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 49
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 93
+  },
+  {
+    "name": "Esports Highlights",
+    "keyword": "esports highlights",
+    "category": "entertainment",
+    "difficulty": "Low",
+    "difficultyScore": 26,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 12014,
+      "avgViews": 542810,
+      "topChannelSubs": 227446,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.28",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 77
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 94
+  },
+  {
+    "name": "Movie Reviews",
+    "keyword": "movie reviews",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$5-$12",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 146232,
+      "avgViews": 1103483,
+      "topChannelSubs": 12852692,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.91",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 38
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 95
+  },
+  {
+    "name": "Film Analysis",
+    "keyword": "film analysis",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 71,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 497226,
+      "avgViews": 8732667,
+      "topChannelSubs": 9541939,
+      "competitionLevel": "High",
+      "avgEngagementRate": "5.45",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 50
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 96
+  },
+  {
+    "name": "Music Production",
+    "keyword": "music production",
+    "category": "entertainment",
+    "difficulty": "Medium",
+    "difficultyScore": 39,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 49,
+      "avgSubscribers": 178136,
+      "avgViews": 4712192,
+      "topChannelSubs": 940670,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.99",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 39
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 97
+  },
+  {
+    "name": "Stoicism Philosophy",
+    "keyword": "stoicism philosophy",
+    "category": "entertainment",
+    "difficulty": "Low",
+    "difficultyScore": 11,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 35,
+      "avgSubscribers": 41961,
+      "avgViews": 1335408,
+      "topChannelSubs": 349613,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.87",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 49
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 98
+  },
+  {
+    "name": "History Documentary",
+    "keyword": "history documentary",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 88,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 31,
+      "avgSubscribers": 487687,
+      "avgViews": 10591994,
+      "topChannelSubs": 10346249,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.69",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 38
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 99
+  },
+  {
+    "name": "True Crime Stories",
+    "keyword": "true crime stories",
+    "category": "entertainment",
+    "difficulty": "Medium",
+    "difficultyScore": 47,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 20,
+      "avgSubscribers": 176325,
+      "avgViews": 2332812,
+      "topChannelSubs": 1208291,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.59",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 59
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 100
+  },
+  {
+    "name": "Mystery Analysis",
+    "keyword": "mystery analysis",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 79,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 385162,
+      "avgViews": 19124072,
+      "topChannelSubs": 8901378,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.55",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 78
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 101
+  },
+  {
+    "name": "Paranormal Investigations",
+    "keyword": "paranormal investigations",
+    "category": "entertainment",
+    "difficulty": "High",
+    "difficultyScore": 87,
+    "cpm": "$5-$12",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 33,
+      "avgSubscribers": 297608,
+      "avgViews": 3688495,
+      "topChannelSubs": 14242320,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.59",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 70
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 102
+  },
+  {
+    "name": "Digital Art Tutorials",
+    "keyword": "digital art tutorials",
+    "category": "creative",
+    "difficulty": "Low",
+    "difficultyScore": 30,
+    "cpm": "$10-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 25,
+      "avgSubscribers": 68594,
+      "avgViews": 1377773,
+      "topChannelSubs": 158188,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.44",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 103
+  },
+  {
+    "name": "Animation Guide",
+    "keyword": "animation guide",
+    "category": "creative",
+    "difficulty": "Low",
+    "difficultyScore": 15,
+    "cpm": "$10-$22",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 41,
+      "avgSubscribers": 10366,
+      "avgViews": 412332,
+      "topChannelSubs": 202422,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.87",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 69
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 104
+  },
+  {
+    "name": "Music Theory",
+    "keyword": "music theory",
+    "category": "creative",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 531160,
+      "avgViews": 11240740,
+      "topChannelSubs": 8963011,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.01",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 75
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 105
+  },
+  {
+    "name": "Photography Tips",
+    "keyword": "photography tips",
+    "category": "creative",
+    "difficulty": "Medium",
+    "difficultyScore": 48,
+    "cpm": "$10-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 45,
+      "avgSubscribers": 57469,
+      "avgViews": 680437,
+      "topChannelSubs": 233604,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.23",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 46
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
+    "id": 106
+  },
+  {
+    "name": "Drawing Tutorials",
+    "keyword": "drawing tutorials",
+    "category": "creative",
+    "difficulty": "Low",
+    "difficultyScore": 18,
+    "cpm": "$10-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 44,
+      "avgSubscribers": 37864,
+      "avgViews": 1667639,
+      "topChannelSubs": 221239,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "0.64",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 51
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 107
+  },
+  {
+    "name": "Graphic Design",
+    "keyword": "graphic design",
+    "category": "creative",
+    "difficulty": "Medium",
+    "difficultyScore": 60,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 72427,
+      "avgViews": 1033202,
+      "topChannelSubs": 320278,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "0.97",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 67
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
+    "id": 108
+  },
+  {
+    "name": "Content Creator Tips",
+    "keyword": "content creator tips",
+    "category": "creative",
+    "difficulty": "Medium",
+    "difficultyScore": 38,
+    "cpm": "$10-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 64447,
+      "avgViews": 1811645,
+      "topChannelSubs": 1320665,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.24",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 25
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 109
+  },
+  {
+    "name": "Cinematography",
+    "keyword": "cinematography",
+    "category": "creative",
+    "difficulty": "Low",
+    "difficultyScore": 25,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 42,
+      "avgSubscribers": 40968,
+      "avgViews": 1240077,
+      "topChannelSubs": 206054,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.99",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 51
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 110
+  },
+  {
+    "name": "Sound Design",
+    "keyword": "sound design",
+    "category": "creative",
+    "difficulty": "Medium",
+    "difficultyScore": 57,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 33,
+      "avgSubscribers": 178384,
+      "avgViews": 3299165,
+      "topChannelSubs": 281980,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.47",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 65
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 111
+  },
+  {
+    "name": "Color Grading",
+    "keyword": "color grading",
+    "category": "creative",
+    "difficulty": "High",
+    "difficultyScore": 67,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 282320,
+      "avgViews": 7076599,
+      "topChannelSubs": 12667724,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.25",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 35
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 112
+  },
+  {
+    "name": "Logo Design",
+    "keyword": "logo design",
+    "category": "creative",
+    "difficulty": "Low",
+    "difficultyScore": 26,
+    "cpm": "$10-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 42,
+      "avgSubscribers": 40584,
+      "avgViews": 826979,
+      "topChannelSubs": 147609,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.31",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 81
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 113
+  },
+  {
+    "name": "Legal Advice",
+    "keyword": "legal advice",
+    "category": "legal",
+    "difficulty": "Low",
+    "difficultyScore": 25,
+    "cpm": "$30-$50",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 18730,
+      "avgViews": 372309,
+      "topChannelSubs": 122123,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.59",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 81
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 114
+  },
+  {
+    "name": "Small Business Law",
+    "keyword": "small business law",
+    "category": "legal",
+    "difficulty": "Medium",
+    "difficultyScore": 37,
+    "cpm": "$30-$50",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 83807,
+      "avgViews": 2008580,
+      "topChannelSubs": 1394188,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.52",
+      "uploadFrequency": 4
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 69
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 115
+  },
+  {
+    "name": "Intellectual Property",
+    "keyword": "intellectual property",
+    "category": "legal",
+    "difficulty": "High",
+    "difficultyScore": 84,
+    "cpm": "$30-$50",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 441097,
+      "avgViews": 15930317,
+      "topChannelSubs": 3057733,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.99",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 46
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 116
+  },
+  {
+    "name": "Contract Review",
+    "keyword": "contract review",
+    "category": "legal",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$30-$50",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 179319,
+      "avgViews": 4605457,
+      "topChannelSubs": 13262052,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.14",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 83
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 117
+  },
+  {
+    "name": "Real Estate Law",
+    "keyword": "real estate law",
+    "category": "legal",
+    "difficulty": "Low",
+    "difficultyScore": 25,
+    "cpm": "$30-$50",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 46,
+      "avgSubscribers": 22091,
+      "avgViews": 988434,
+      "topChannelSubs": 315754,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.95",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 59
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 118
+  },
+  {
+    "name": "Employment Law",
+    "keyword": "employment law",
+    "category": "legal",
+    "difficulty": "High",
+    "difficultyScore": 79,
+    "cpm": "$30-$50",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 42,
+      "avgSubscribers": 483500,
+      "avgViews": 14653197,
+      "topChannelSubs": 4979075,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.35",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 55
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 119
+  },
+  {
+    "name": "Luxury Watch Review",
+    "keyword": "luxury watch review",
+    "category": "luxury",
+    "difficulty": "Medium",
+    "difficultyScore": 55,
+    "cpm": "$35-$50",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 141048,
+      "avgViews": 6472758,
+      "topChannelSubs": 721472,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.86",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 65
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 120
+  },
+  {
+    "name": "Designer Fashion",
+    "keyword": "designer fashion",
+    "category": "luxury",
+    "difficulty": "Low",
+    "difficultyScore": 26,
+    "cpm": "$35-$50",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 79128,
+      "avgViews": 637203,
+      "topChannelSubs": 287402,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.66",
+      "uploadFrequency": 4
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 121
+  },
+  {
+    "name": "Luxury Travel",
+    "keyword": "luxury travel",
+    "category": "luxury",
+    "difficulty": "Medium",
+    "difficultyScore": 46,
+    "cpm": "$35-$50",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 145571,
+      "avgViews": 3873837,
+      "topChannelSubs": 1251930,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.87",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 84
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 122
+  },
+  {
+    "name": "Exotic Cars",
+    "keyword": "exotic cars",
+    "category": "luxury",
+    "difficulty": "Medium",
+    "difficultyScore": 55,
+    "cpm": "$35-$50",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 53829,
+      "avgViews": 1038074,
+      "topChannelSubs": 252974,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.55",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 123
+  },
+  {
+    "name": "High-end Real Estate",
+    "keyword": "high-end real estate",
+    "category": "luxury",
+    "difficulty": "Low",
+    "difficultyScore": 17,
+    "cpm": "$35-$50",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 32837,
+      "avgViews": 1125258,
+      "topChannelSubs": 216824,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.11",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 58
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 124
+  },
+  {
+    "name": "Fine Dining",
+    "keyword": "fine dining",
+    "category": "luxury",
+    "difficulty": "High",
+    "difficultyScore": 75,
+    "cpm": "$35-$50",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 42,
+      "avgSubscribers": 309806,
+      "avgViews": 2890822,
+      "topChannelSubs": 11138323,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.53",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 85
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 125
+  },
+  {
+    "name": "Space Exploration",
+    "keyword": "space exploration",
+    "category": "science",
+    "difficulty": "Medium",
+    "difficultyScore": 50,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 43,
+      "avgSubscribers": 106893,
+      "avgViews": 3659102,
+      "topChannelSubs": 1164755,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.11",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 68
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 126
+  },
+  {
+    "name": "Physics Explained",
+    "keyword": "physics explained",
+    "category": "science",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 23,
+      "avgSubscribers": 486390,
+      "avgViews": 19739494,
+      "topChannelSubs": 8934823,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.54",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 27
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 127
+  },
+  {
+    "name": "Biology Facts",
+    "keyword": "biology facts",
+    "category": "science",
+    "difficulty": "Low",
+    "difficultyScore": 14,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 43152,
+      "avgViews": 1570296,
+      "topChannelSubs": 298691,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.18",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 69
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 128
+  },
+  {
+    "name": "Chemistry Experiments",
+    "keyword": "chemistry experiments",
+    "category": "science",
+    "difficulty": "Medium",
+    "difficultyScore": 52,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 199726,
+      "avgViews": 4440820,
+      "topChannelSubs": 1189845,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.27",
+      "uploadFrequency": 5
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 49
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 129
+  },
+  {
+    "name": "Astronomy News",
+    "keyword": "astronomy news",
+    "category": "science",
+    "difficulty": "High",
+    "difficultyScore": 68,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 129373,
+      "avgViews": 2410028,
+      "topChannelSubs": 5835336,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.23",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 49
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 130
+  },
+  {
+    "name": "Scientific Discoveries",
+    "keyword": "scientific discoveries",
+    "category": "science",
+    "difficulty": "High",
+    "difficultyScore": 79,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 372721,
+      "avgViews": 3856708,
+      "topChannelSubs": 9005677,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.21",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 59
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 131
+  },
+  {
+    "name": "Dog Training Tips",
+    "keyword": "dog training tips",
+    "category": "pets",
+    "difficulty": "Low",
+    "difficultyScore": 30,
+    "cpm": "$8-$15",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 47,
+      "avgSubscribers": 29364,
+      "avgViews": 741607,
+      "topChannelSubs": 105609,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "5.32",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 55
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 132
+  },
+  {
+    "name": "Cat Care Guide",
+    "keyword": "cat care guide",
+    "category": "pets",
+    "difficulty": "High",
+    "difficultyScore": 79,
+    "cpm": "$8-$15",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 27,
+      "avgSubscribers": 337969,
+      "avgViews": 10947950,
+      "topChannelSubs": 6547276,
+      "competitionLevel": "High",
+      "avgEngagementRate": "1.03",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 47
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 133
+  },
+  {
+    "name": "Aquarium Setup",
+    "keyword": "aquarium setup",
+    "category": "pets",
+    "difficulty": "High",
+    "difficultyScore": 84,
+    "cpm": "$8-$15",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 178645,
+      "avgViews": 5140507,
+      "topChannelSubs": 13277162,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.00",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 24
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 134
+  },
+  {
+    "name": "Exotic Pet Care",
+    "keyword": "exotic pet care",
+    "category": "pets",
+    "difficulty": "Medium",
+    "difficultyScore": 57,
+    "cpm": "$8-$15",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 80052,
+      "avgViews": 2348946,
+      "topChannelSubs": 360962,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "0.84",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 78
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
+    "id": 135
+  },
+  {
+    "name": "Pet Nutrition",
+    "keyword": "pet nutrition",
+    "category": "pets",
+    "difficulty": "High",
+    "difficultyScore": 83,
+    "cpm": "$8-$15",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 23,
+      "avgSubscribers": 438440,
+      "avgViews": 19910782,
+      "topChannelSubs": 4683174,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.68",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 46
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 136
+  },
+  {
+    "name": "Puppy Training",
+    "keyword": "puppy training",
+    "category": "pets",
+    "difficulty": "High",
+    "difficultyScore": 69,
+    "cpm": "$8-$15",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 406206,
+      "avgViews": 3167864,
+      "topChannelSubs": 9571253,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.82",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 47
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 137
+  },
+  {
+    "name": "Cooking For Beginners",
+    "keyword": "cooking for beginners",
+    "category": "food",
+    "difficulty": "Medium",
+    "difficultyScore": 49,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 41,
+      "avgSubscribers": 93820,
+      "avgViews": 2970682,
+      "topChannelSubs": 761334,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.50",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 55
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 138
+  },
+  {
+    "name": "Baking Tutorials",
+    "keyword": "baking tutorials",
+    "category": "food",
+    "difficulty": "High",
+    "difficultyScore": 75,
+    "cpm": "$10-$20",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 174010,
+      "avgViews": 6307621,
+      "topChannelSubs": 1892570,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.81",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 139
+  },
+  {
+    "name": "Air Fryer Recipes",
+    "keyword": "air fryer recipes",
+    "category": "food",
+    "difficulty": "High",
+    "difficultyScore": 73,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 20,
+      "avgSubscribers": 268577,
+      "avgViews": 11677484,
+      "topChannelSubs": 2344631,
+      "competitionLevel": "High",
+      "avgEngagementRate": "0.74",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 69
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 140
+  },
+  {
+    "name": "Keto Diet Recipes",
+    "keyword": "keto diet recipes",
+    "category": "food",
+    "difficulty": "Medium",
+    "difficultyScore": 51,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 43,
+      "avgSubscribers": 147059,
+      "avgViews": 1493462,
+      "topChannelSubs": 965610,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.57",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 47
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 141
+  },
+  {
+    "name": "Vegan Cooking",
+    "keyword": "vegan cooking",
+    "category": "food",
+    "difficulty": "Low",
+    "difficultyScore": 13,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 28,
+      "avgSubscribers": 55695,
+      "avgViews": 2457318,
+      "topChannelSubs": 357217,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.60",
+      "uploadFrequency": 4
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 83
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 142
+  },
+  {
+    "name": "Meal Planning",
+    "keyword": "meal planning",
+    "category": "food",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 301370,
+      "avgViews": 5677768,
+      "topChannelSubs": 2770527,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.84",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 79
+    },
+    "lastUpdated": "2026-03-06T13:37:33.380Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 143
+  },
+  {
+    "name": "Food Truck Business",
+    "keyword": "food truck business",
+    "category": "food",
+    "difficulty": "Medium",
+    "difficultyScore": 52,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 103847,
+      "avgViews": 2929181,
+      "topChannelSubs": 529548,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.97",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 71
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 144
+  },
+  {
+    "name": "Restaurant Reviews",
+    "keyword": "restaurant reviews",
+    "category": "food",
+    "difficulty": "Low",
+    "difficultyScore": 10,
+    "cpm": "$10-$20",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 21,
+      "avgSubscribers": 66408,
+      "avgViews": 2412014,
+      "topChannelSubs": 357333,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.89",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 56
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 145
+  },
+  {
+    "name": "Coffee Brewing",
+    "keyword": "coffee brewing",
+    "category": "food",
+    "difficulty": "Low",
+    "difficultyScore": 21,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 42,
+      "avgSubscribers": 66670,
+      "avgViews": 1429814,
+      "topChannelSubs": 270584,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.50",
+      "uploadFrequency": 9
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 55
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 146
+  },
+  {
+    "name": "Parenting Advice",
+    "keyword": "parenting advice",
+    "category": "parenting",
+    "difficulty": "Medium",
+    "difficultyScore": 39,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 23,
+      "avgSubscribers": 169017,
+      "avgViews": 3841433,
+      "topChannelSubs": 713163,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.04",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 84
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 147
+  },
+  {
+    "name": "Baby Care Tips",
+    "keyword": "baby care tips",
+    "category": "parenting",
+    "difficulty": "Medium",
+    "difficultyScore": 54,
+    "cpm": "$12-$22",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 124367,
+      "avgViews": 747544,
+      "topChannelSubs": 927455,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "1.81",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 85
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 148
+  },
+  {
+    "name": "Toddler Activities",
+    "keyword": "toddler activities",
+    "category": "parenting",
+    "difficulty": "Low",
+    "difficultyScore": 26,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 50,
+      "avgSubscribers": 10317,
+      "avgViews": 250913,
+      "topChannelSubs": 316148,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.55",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 79
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 149
+  },
+  {
+    "name": "Homeschooling Guide",
+    "keyword": "homeschooling guide",
+    "category": "parenting",
+    "difficulty": "Low",
+    "difficultyScore": 22,
+    "cpm": "$12-$22",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 19423,
+      "avgViews": 213761,
+      "topChannelSubs": 205672,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.63",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 150
+  },
+  {
+    "name": "Child Development",
+    "keyword": "child development",
+    "category": "parenting",
+    "difficulty": "Medium",
+    "difficultyScore": 51,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 47,
+      "avgSubscribers": 131115,
+      "avgViews": 1985191,
+      "topChannelSubs": 1156146,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.49",
+      "uploadFrequency": 2
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 45
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 151
+  },
+  {
+    "name": "Family Budgeting",
+    "keyword": "family budgeting",
+    "category": "parenting",
+    "difficulty": "Low",
+    "difficultyScore": 24,
+    "cpm": "$12-$22",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 44,
+      "avgSubscribers": 21866,
+      "avgViews": 945806,
+      "topChannelSubs": 250020,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.14",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 85
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 152
+  },
+  {
+    "name": "Skincare Routine",
+    "keyword": "skincare routine",
+    "category": "beauty",
+    "difficulty": "Medium",
+    "difficultyScore": 39,
+    "cpm": "$12-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 45,
+      "avgSubscribers": 32490,
+      "avgViews": 1159395,
+      "topChannelSubs": 765736,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.98",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 34
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 153
+  },
+  {
+    "name": "Makeup Tutorials",
+    "keyword": "makeup tutorials",
+    "category": "beauty",
+    "difficulty": "Medium",
+    "difficultyScore": 56,
+    "cpm": "$12-$25",
+    "monetization": "Digital Products, Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 34,
+      "avgSubscribers": 154564,
+      "avgViews": 7703365,
+      "topChannelSubs": 765730,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "0.89",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 50
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 154
+  },
+  {
+    "name": "Hair Care Tips",
+    "keyword": "hair care tips",
+    "category": "beauty",
+    "difficulty": "Medium",
+    "difficultyScore": 56,
+    "cpm": "$12-$25",
+    "monetization": "Digital Products, Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 31,
+      "avgSubscribers": 157216,
+      "avgViews": 7311261,
+      "topChannelSubs": 1430204,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "5.41",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 68
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 155
+  },
+  {
+    "name": "Nail Art Designs",
+    "keyword": "nail art designs",
+    "category": "beauty",
+    "difficulty": "Low",
+    "difficultyScore": 18,
+    "cpm": "$12-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 21743,
+      "avgViews": 467195,
+      "topChannelSubs": 134177,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "4.81",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 58
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 156
+  },
+  {
+    "name": "Anti-aging Tips",
+    "keyword": "anti-aging tips",
+    "category": "beauty",
+    "difficulty": "Medium",
+    "difficultyScore": 53,
+    "cpm": "$12-$25",
+    "monetization": "Digital Products, Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 21,
+      "avgSubscribers": 179398,
+      "avgViews": 7526668,
+      "topChannelSubs": 1251865,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.90",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 85
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 157
+  },
+  {
+    "name": "Natural Beauty",
+    "keyword": "natural beauty",
+    "category": "beauty",
+    "difficulty": "Medium",
+    "difficultyScore": 57,
+    "cpm": "$12-$25",
+    "monetization": "Ad Revenue, Sponsorships",
+    "metrics": {
+      "totalChannels": 32,
+      "avgSubscribers": 172089,
+      "avgViews": 3119470,
+      "topChannelSubs": 272271,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "4.85",
+      "uploadFrequency": 10
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 66
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 158
+  },
+  {
+    "name": "Basketball Training",
+    "keyword": "basketball training",
+    "category": "sports",
+    "difficulty": "Medium",
+    "difficultyScore": 44,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 37,
+      "avgSubscribers": 84137,
+      "avgViews": 1580591,
+      "topChannelSubs": 939569,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.62",
+      "uploadFrequency": 7
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 51
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 159
+  },
+  {
+    "name": "Soccer Skills",
+    "keyword": "soccer skills",
+    "category": "sports",
+    "difficulty": "Low",
+    "difficultyScore": 30,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 11171,
+      "avgViews": 421445,
+      "topChannelSubs": 168686,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "2.61",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 65
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 160
+  },
+  {
+    "name": "Golf Tips",
+    "keyword": "golf tips",
+    "category": "sports",
+    "difficulty": "Low",
+    "difficultyScore": 14,
+    "cpm": "$8-$18",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 40,
+      "avgSubscribers": 43153,
+      "avgViews": 389911,
+      "topChannelSubs": 106503,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "3.02",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 84
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
+    "id": 161
+  },
+  {
+    "name": "Running For Beginners",
+    "keyword": "running for beginners",
+    "category": "sports",
+    "difficulty": "High",
+    "difficultyScore": 82,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 25,
+      "avgSubscribers": 211581,
+      "avgViews": 4830612,
+      "topChannelSubs": 6435175,
+      "competitionLevel": "High",
+      "avgEngagementRate": "3.70",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 77
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 162
+  },
+  {
+    "name": "Boxing Techniques",
+    "keyword": "boxing techniques",
+    "category": "sports",
+    "difficulty": "High",
+    "difficultyScore": 87,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 30,
+      "avgSubscribers": 759273,
+      "avgViews": 18739361,
+      "topChannelSubs": 11585624,
+      "competitionLevel": "High",
+      "avgEngagementRate": "4.36",
+      "uploadFrequency": 12
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 35
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 163
+  },
+  {
+    "name": "Tennis Lessons",
+    "keyword": "tennis lessons",
+    "category": "sports",
+    "difficulty": "Medium",
+    "difficultyScore": 59,
+    "cpm": "$8-$18",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 175910,
+      "avgViews": 7156307,
+      "topChannelSubs": 457368,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.92",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 80
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
+    "id": 164
+  },
+  {
+    "name": "Zero Waste Living",
+    "keyword": "zero waste living",
+    "category": "sustainability",
+    "difficulty": "Medium",
+    "difficultyScore": 51,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 20,
+      "avgSubscribers": 166518,
+      "avgViews": 1651105,
+      "topChannelSubs": 1197539,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "3.46",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Declining",
+      "score": 37
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience. High engagement rates indicate active audience.",
+    "id": 165
+  },
+  {
+    "name": "Solar Panel Guide",
+    "keyword": "solar panel guide",
+    "category": "sustainability",
+    "difficulty": "Low",
+    "difficultyScore": 20,
+    "cpm": "$10-$20",
+    "monetization": "Digital Products, Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 35,
+      "avgSubscribers": 32940,
+      "avgViews": 820248,
+      "topChannelSubs": 303373,
+      "competitionLevel": "Low",
+      "avgEngagementRate": "1.99",
+      "uploadFrequency": 8
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 50
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
+    "id": 166
+  },
+  {
+    "name": "Composting Tips",
+    "keyword": "composting tips",
+    "category": "sustainability",
+    "difficulty": "High",
+    "difficultyScore": 87,
+    "cpm": "$10-$20",
+    "monetization": "Digital Products, Ad Revenue",
+    "metrics": {
+      "totalChannels": 48,
+      "avgSubscribers": 415115,
+      "avgViews": 11933205,
+      "topChannelSubs": 10601649,
+      "competitionLevel": "High",
+      "avgEngagementRate": "5.21",
+      "uploadFrequency": 1
+    },
+    "trend": {
+      "status": "Stable",
+      "score": 53
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 167
+  },
+  {
+    "name": "Electric Car Reviews",
+    "keyword": "electric car reviews",
+    "category": "sustainability",
+    "difficulty": "High",
+    "difficultyScore": 85,
+    "cpm": "$10-$20",
+    "monetization": "Affiliate Marketing (High Intent), Ad Revenue",
+    "metrics": {
+      "totalChannels": 31,
+      "avgSubscribers": 693473,
+      "avgViews": 19742392,
+      "topChannelSubs": 1638304,
+      "competitionLevel": "High",
+      "avgEngagementRate": "2.85",
+      "uploadFrequency": 11
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 74
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "High competition market requiring strong content differentiation.",
+    "id": 168
+  },
+  {
+    "name": "Eco-friendly Products",
+    "keyword": "eco-friendly products",
+    "category": "sustainability",
+    "difficulty": "High",
+    "difficultyScore": 83,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 36,
+      "avgSubscribers": 177246,
+      "avgViews": 5636057,
+      "topChannelSubs": 2031048,
+      "competitionLevel": "High",
+      "avgEngagementRate": "5.20",
+      "uploadFrequency": 3
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 71
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
+    "id": 169
+  },
+  {
+    "name": "Renewable Energy",
+    "keyword": "renewable energy",
+    "category": "sustainability",
+    "difficulty": "Medium",
+    "difficultyScore": 40,
+    "cpm": "$10-$20",
+    "monetization": "Ad Revenue",
+    "metrics": {
+      "totalChannels": 26,
+      "avgSubscribers": 42371,
+      "avgViews": 1642754,
+      "topChannelSubs": 1306927,
+      "competitionLevel": "Medium",
+      "avgEngagementRate": "2.54",
+      "uploadFrequency": 6
+    },
+    "trend": {
+      "status": "Rising",
+      "score": 79
+    },
+    "lastUpdated": "2026-03-06T13:37:33.381Z",
+    "description": "Moderate competition, suitable for creators with some experience.",
+    "id": 170
   }
 ];

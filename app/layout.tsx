@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://niche-hunt.vercel.app"),
   openGraph: {
     title: "NicheHunt — Profitable YouTube Niche Database",
-    description: "46+ data-driven YouTube niches with CPM estimates, difficulty scores, and trend analysis.",
+    description: "170+ data-driven YouTube niches with CPM estimates, difficulty scores, and trend analysis.",
     type: "website",
   },
 };
