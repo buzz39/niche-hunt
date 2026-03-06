@@ -6,7 +6,7 @@ import { niches } from './data/niches';
 const CATEGORIES = ['all', ...Array.from(new Set(niches.map(n => n.category)))];
 const TOP_PICK_IDS = [1, 8, 28, 31, 22, 42]; // Credit Card Rewards, Tax Optimization, Cybersecurity Tips, Software Comparisons, Freelancing Guide, Sleep Optimization
 
-const GUMROAD_URL = 'https://gumroad.com/l/nichehunt';
+const GUMROAD_URL = 'https://tweetpreneur.gumroad.com/l/nichehunt';
 
 function DifficultyBar({ score, label }: { score: number; label: string }) {
   const color = score <= 30 ? 'bg-emerald-500' : score <= 60 ? 'bg-yellow-500' : 'bg-red-500';
@@ -41,7 +41,14 @@ export default function Home() {
   }, []);
 
   const handlePurchase = () => {
-    window.open(GUMROAD_URL, '_blank');
+    // Try Gumroad overlay first, fall back to new tab
+    const a = document.createElement('a');
+    a.href = GUMROAD_URL;
+    a.classList.add('gumroad-button');
+    a.dataset.gumroadOverlay = '';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
   };
 
   const handleRestore = () => {
