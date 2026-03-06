@@ -25,6 +25,7 @@ export interface Niche {
   };
   lastUpdated: string;
   description: string;
+  apiVerified?: boolean;
 }
 
 export const niches: Niche[] = [
@@ -32,15 +33,15 @@ export const niches: Niche[] = [
     "name": "Credit Card Rewards",
     "keyword": "credit card rewards",
     "category": "finance",
-    "difficulty": "Low",
-    "difficultyScore": 15,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 46596,
-      "avgViews": 7209896,
-      "topChannelSubs": 229000,
+      "totalChannels": 10,
+      "avgSubscribers": 36655,
+      "avgViews": 7274217,
+      "topChannelSubs": 213000,
       "competitionLevel": "Low",
       "avgEngagementRate": "2.06",
       "uploadFrequency": 5
@@ -49,9 +50,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:35.168Z",
+    "lastUpdated": "2026-03-06T21:34:38.231Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 1
+    "id": 1,
+    "apiVerified": true
   },
   {
     "name": "Dividend Investing",
@@ -62,11 +64,11 @@ export const niches: Niche[] = [
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 64806,
-      "avgViews": 5873020,
-      "topChannelSubs": 243000,
-      "competitionLevel": "Medium",
+      "totalChannels": 10,
+      "avgSubscribers": 68391,
+      "avgViews": 5962970,
+      "topChannelSubs": 246000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "3.20",
       "uploadFrequency": 6
     },
@@ -74,9 +76,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:39.443Z",
+    "lastUpdated": "2026-03-06T21:34:39.005Z",
     "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
-    "id": 2
+    "id": 2,
+    "apiVerified": true
   },
   {
     "name": "Personal Finance Tips",
@@ -87,11 +90,11 @@ export const niches: Niche[] = [
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 234541,
-      "avgViews": 24437927,
-      "topChannelSubs": 2280000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 212684,
+      "avgViews": 12708600,
+      "topChannelSubs": 2120000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "3.83",
       "uploadFrequency": 7
     },
@@ -99,23 +102,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:43.745Z",
+    "lastUpdated": "2026-03-06T21:34:39.836Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 3
+    "id": 3,
+    "apiVerified": true
   },
   {
     "name": "Cryptocurrency Trading",
     "keyword": "cryptocurrency trading",
     "category": "finance",
-    "difficulty": "Low",
+    "difficulty": "Low-Medium",
     "difficultyScore": 25,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 37794,
-      "avgViews": 1802873,
-      "topChannelSubs": 371000,
+      "totalChannels": 10,
+      "avgSubscribers": 47469,
+      "avgViews": 2219889,
+      "topChannelSubs": 373000,
       "competitionLevel": "Low",
       "avgEngagementRate": "5.24",
       "uploadFrequency": 10
@@ -124,23 +128,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:48.168Z",
+    "lastUpdated": "2026-03-06T21:34:40.670Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 4
+    "id": 4,
+    "apiVerified": true
   },
   {
     "name": "Stock Market Analysis",
     "keyword": "stock market analysis",
     "category": "finance",
-    "difficulty": "High",
-    "difficultyScore": 95,
+    "difficulty": "Very High",
+    "difficultyScore": 90,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 1611915,
-      "avgViews": 171817533,
-      "topChannelSubs": 14800000,
+      "totalChannels": 10,
+      "avgSubscribers": 2319671,
+      "avgViews": 273587012,
+      "topChannelSubs": 14900000,
       "competitionLevel": "High",
       "avgEngagementRate": "5.38",
       "uploadFrequency": 38
@@ -149,24 +154,25 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:52.491Z",
+    "lastUpdated": "2026-03-06T21:34:41.542Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 5
+    "id": 5,
+    "apiVerified": true
   },
   {
     "name": "Real Estate Investing",
     "keyword": "real estate investing",
     "category": "finance",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 16166,
-      "avgViews": 1826181,
-      "topChannelSubs": 107000,
-      "competitionLevel": "Low",
+      "totalChannels": 10,
+      "avgSubscribers": 191779,
+      "avgViews": 51827183,
+      "topChannelSubs": 1500000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "3.59",
       "uploadFrequency": 16
     },
@@ -174,9 +180,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:27:56.768Z",
+    "lastUpdated": "2026-03-06T21:34:42.263Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 6
+    "id": 6,
+    "apiVerified": true
   },
   {
     "name": "Retirement Planning",
@@ -187,10 +194,10 @@ export const niches: Niche[] = [
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 20652,
-      "avgViews": 2215279,
-      "topChannelSubs": 207000,
+      "totalChannels": 10,
+      "avgSubscribers": 5296,
+      "avgViews": 475563,
+      "topChannelSubs": 28000,
       "competitionLevel": "Low",
       "avgEngagementRate": "2.69",
       "uploadFrequency": 4
@@ -199,9 +206,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:01.071Z",
+    "lastUpdated": "2026-03-06T21:34:43.045Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 7
+    "id": 7,
+    "apiVerified": true
   },
   {
     "name": "Tax Optimization",
@@ -212,10 +220,10 @@ export const niches: Niche[] = [
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 589,
-      "avgViews": 45746,
-      "topChannelSubs": 8030,
+      "totalChannels": 10,
+      "avgSubscribers": 542,
+      "avgViews": 167672,
+      "topChannelSubs": 2500,
       "competitionLevel": "Low",
       "avgEngagementRate": "2.90",
       "uploadFrequency": 1
@@ -224,23 +232,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:05.247Z",
+    "lastUpdated": "2026-03-06T21:34:43.785Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 8
+    "id": 8,
+    "apiVerified": true
   },
   {
     "name": "Debt Payoff Strategies",
     "keyword": "debt payoff strategies",
     "category": "finance",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 852,
-      "avgViews": 56496,
-      "topChannelSubs": 8490,
+      "totalChannels": 10,
+      "avgSubscribers": 1067,
+      "avgViews": 239224,
+      "topChannelSubs": 10400,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.38",
       "uploadFrequency": 0
@@ -249,23 +258,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:09.570Z",
+    "lastUpdated": "2026-03-06T21:34:44.565Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 9
+    "id": 9,
+    "apiVerified": true
   },
   {
     "name": "Passive Income Ideas",
     "keyword": "passive income ideas",
     "category": "finance",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 13226,
-      "avgViews": 735800,
-      "topChannelSubs": 244000,
+      "totalChannels": 10,
+      "avgSubscribers": 6,
+      "avgViews": 369,
+      "topChannelSubs": 37,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.11",
       "uploadFrequency": 1
@@ -274,23 +284,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:13.872Z",
+    "lastUpdated": "2026-03-06T21:34:45.333Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 10
+    "id": 10,
+    "apiVerified": true
   },
   {
     "name": "Financial Independence",
     "keyword": "financial independence",
     "category": "finance",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 5266,
-      "avgViews": 303885,
-      "topChannelSubs": 70500,
+      "totalChannels": 10,
+      "avgSubscribers": 2823,
+      "avgViews": 278324,
+      "topChannelSubs": 10000,
       "competitionLevel": "Low",
       "avgEngagementRate": "4.16",
       "uploadFrequency": 3
@@ -299,22 +310,23 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:18.375Z",
+    "lastUpdated": "2026-03-06T21:34:46.099Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 11
+    "id": 11,
+    "apiVerified": true
   },
   {
     "name": "Investing For Beginners",
     "keyword": "investing for beginners",
     "category": "finance",
-    "difficulty": "High",
+    "difficulty": "Very High",
     "difficultyScore": 90,
     "cpm": "$40-$60",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 671891,
-      "avgViews": 47976765,
+      "totalChannels": 10,
+      "avgSubscribers": 811673,
+      "avgViews": 49678389,
       "topChannelSubs": 6480000,
       "competitionLevel": "High",
       "avgEngagementRate": "4.22",
@@ -324,23 +336,24 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:22.370Z",
+    "lastUpdated": "2026-03-06T21:34:46.891Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 12
+    "id": 12,
+    "apiVerified": true
   },
   {
     "name": "Productivity Tools",
     "keyword": "productivity tools",
     "category": "business",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$25-$45",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 396,
-      "avgViews": 17368,
-      "topChannelSubs": 5720,
+      "totalChannels": 10,
+      "avgSubscribers": 627,
+      "avgViews": 34710,
+      "topChannelSubs": 5730,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.20",
       "uploadFrequency": 0
@@ -349,24 +362,25 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:26.464Z",
+    "lastUpdated": "2026-03-06T21:34:47.439Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 13
+    "id": 13,
+    "apiVerified": true
   },
   {
     "name": "Remote Work Setup",
     "keyword": "remote work setup",
     "category": "business",
-    "difficulty": "High",
-    "difficultyScore": 85,
+    "difficulty": "Medium",
+    "difficultyScore": 40,
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 697710,
-      "avgViews": 57970367,
-      "topChannelSubs": 11500000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 53132,
+      "avgViews": 21772008,
+      "topChannelSubs": 488000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "2.25",
       "uploadFrequency": 4
     },
@@ -374,9 +388,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:30.271Z",
+    "lastUpdated": "2026-03-06T21:34:48.209Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 14
+    "id": 14,
+    "apiVerified": true
   },
   {
     "name": "Ai Business Automation",
@@ -387,10 +402,10 @@ export const niches: Niche[] = [
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 89250,
-      "avgViews": 3615278,
-      "topChannelSubs": 731000,
+      "totalChannels": 10,
+      "avgSubscribers": 142654,
+      "avgViews": 5875971,
+      "topChannelSubs": 743000,
       "competitionLevel": "Medium",
       "avgEngagementRate": "3.93",
       "uploadFrequency": 4
@@ -399,24 +414,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:28:34.559Z",
+    "lastUpdated": "2026-03-06T21:34:48.988Z",
     "description": "Moderate competition, suitable for creators with some experience.",
-    "id": 15
+    "id": 15,
+    "apiVerified": true
   },
   {
     "name": "Solopreneur Tips",
     "keyword": "solopreneur tips",
     "category": "business",
-    "difficulty": "High",
-    "difficultyScore": 85,
+    "difficulty": "Very High",
+    "difficultyScore": 90,
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 336584,
-      "avgViews": 27135280,
-      "topChannelSubs": 6530000,
-      "competitionLevel": "High",
+      "totalChannels": 25,
+      "avgSubscribers": 270330,
+      "avgViews": 21925960,
+      "topChannelSubs": 6550000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "6.80",
       "uploadFrequency": 3
     },
@@ -424,9 +440,10 @@ export const niches: Niche[] = [
       "status": "Unknown",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:38.753Z",
+    "lastUpdated": "2026-03-06T21:34:49.532Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 16
+    "id": 16,
+    "apiVerified": true
   },
   {
     "name": "Digital Marketing Strategies",
@@ -437,11 +454,11 @@ export const niches: Niche[] = [
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 25,
-      "avgSubscribers": 79363,
-      "avgViews": 4709536,
-      "topChannelSubs": 658000,
-      "competitionLevel": "Medium",
+      "totalChannels": 10,
+      "avgSubscribers": 71298,
+      "avgViews": 4496857,
+      "topChannelSubs": 664000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "3.90",
       "uploadFrequency": 4
     },
@@ -449,23 +466,24 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:28:42.852Z",
+    "lastUpdated": "2026-03-06T21:34:50.338Z",
     "description": "Moderate competition, suitable for creators with some experience.",
-    "id": 17
+    "id": 17,
+    "apiVerified": true
   },
   {
     "name": "Email Marketing",
     "keyword": "email marketing",
     "category": "business",
     "difficulty": "Low",
-    "difficultyScore": 25,
+    "difficultyScore": 15,
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 4440,
-      "avgViews": 1928506,
-      "topChannelSubs": 44300,
+      "totalChannels": 25,
+      "avgSubscribers": 2420,
+      "avgViews": 386319,
+      "topChannelSubs": 16900,
       "competitionLevel": "Low",
       "avgEngagementRate": "5.14",
       "uploadFrequency": 4
@@ -474,9 +492,10 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:28:47.460Z",
+    "lastUpdated": "2026-03-06T21:34:51.137Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 18
+    "id": 18,
+    "apiVerified": true
   },
   {
     "name": "Content Creation Tools",
@@ -487,11 +506,11 @@ export const niches: Niche[] = [
     "cpm": "$25-$45",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 106282,
-      "avgViews": 21664974,
-      "topChannelSubs": 2080000,
-      "competitionLevel": "High",
+      "totalChannels": 25,
+      "avgSubscribers": 85136,
+      "avgViews": 17625956,
+      "topChannelSubs": 2100000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "4.29",
       "uploadFrequency": 3
     },
@@ -499,9 +518,10 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:28:51.863Z",
+    "lastUpdated": "2026-03-06T21:34:51.707Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 19
+    "id": 19,
+    "apiVerified": true
   },
   {
     "name": "Notion Templates",
@@ -512,10 +532,10 @@ export const niches: Niche[] = [
     "cpm": "$25-$45",
     "monetization": "Digital Products, Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 2405,
-      "avgViews": 186447,
-      "topChannelSubs": 42300,
+      "totalChannels": 10,
+      "avgSubscribers": 4540,
+      "avgViews": 331848,
+      "topChannelSubs": 43400,
       "competitionLevel": "Low",
       "avgEngagementRate": "2.88",
       "uploadFrequency": 0
@@ -524,22 +544,23 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:28:56.067Z",
+    "lastUpdated": "2026-03-06T21:34:52.244Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 20
+    "id": 20,
+    "apiVerified": true
   },
   {
     "name": "Project Management",
     "keyword": "project management",
     "category": "business",
-    "difficulty": "Low",
-    "difficultyScore": 15,
+    "difficulty": "Medium",
+    "difficultyScore": 40,
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 25,
-      "avgSubscribers": 41652,
-      "avgViews": 4172522,
+      "totalChannels": 10,
+      "avgSubscribers": 67525,
+      "avgViews": 6999012,
       "topChannelSubs": 426000,
       "competitionLevel": "Low",
       "avgEngagementRate": "1.57",
@@ -549,22 +570,23 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:29:00.637Z",
+    "lastUpdated": "2026-03-06T21:34:53.056Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 21
+    "id": 21,
+    "apiVerified": true
   },
   {
     "name": "Freelancing Guide",
     "keyword": "freelancing guide",
     "category": "business",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$25-$45",
     "monetization": "Digital Products, Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 25,
-      "avgSubscribers": 1680,
-      "avgViews": 38072,
+      "totalChannels": 10,
+      "avgSubscribers": 5072,
+      "avgViews": 112499,
       "topChannelSubs": 24800,
       "competitionLevel": "Low",
       "avgEngagementRate": "4.08",
@@ -574,22 +596,23 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:04.961Z",
+    "lastUpdated": "2026-03-06T21:34:53.793Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 22
+    "id": 22,
+    "apiVerified": true
   },
   {
     "name": "Business Automation",
     "keyword": "business automation",
     "category": "business",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 7772,
-      "avgViews": 448766,
+      "totalChannels": 10,
+      "avgSubscribers": 14993,
+      "avgViews": 793371,
       "topChannelSubs": 85800,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.54",
@@ -599,9 +622,10 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:09.014Z",
+    "lastUpdated": "2026-03-06T21:34:54.530Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 23
+    "id": 23,
+    "apiVerified": true
   },
   {
     "name": "Startup Advice",
@@ -612,11 +636,11 @@ export const niches: Niche[] = [
     "cpm": "$25-$45",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 116743,
-      "avgViews": 6135864,
-      "topChannelSubs": 2140000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 233931,
+      "avgViews": 11935622,
+      "topChannelSubs": 2180000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "3.10",
       "uploadFrequency": 4
     },
@@ -624,23 +648,24 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:13.264Z",
+    "lastUpdated": "2026-03-06T21:34:55.276Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 24
+    "id": 24,
+    "apiVerified": true
   },
   {
     "name": "Ai Tool Reviews",
     "keyword": "AI tool reviews",
     "category": "tech",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$20-$35",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 42851,
-      "avgViews": 2342757,
-      "topChannelSubs": 480000,
+      "totalChannels": 10,
+      "avgSubscribers": 36660,
+      "avgViews": 3081792,
+      "topChannelSubs": 362000,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.94",
       "uploadFrequency": 1
@@ -649,23 +674,24 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:17.405Z",
+    "lastUpdated": "2026-03-06T21:34:56.093Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 25
+    "id": 25,
+    "apiVerified": true
   },
   {
     "name": "Coding Tutorials",
     "keyword": "coding tutorials",
     "category": "tech",
-    "difficulty": "High",
+    "difficulty": "Very High",
     "difficultyScore": 90,
     "cpm": "$20-$35",
     "monetization": "Digital Products, Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 1027436,
-      "avgViews": 88034260,
-      "topChannelSubs": 9440000,
+      "totalChannels": 10,
+      "avgSubscribers": 2103827,
+      "avgViews": 183138553,
+      "topChannelSubs": 9490000,
       "competitionLevel": "High",
       "avgEngagementRate": "3.56",
       "uploadFrequency": 9
@@ -674,24 +700,25 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:21.469Z",
+    "lastUpdated": "2026-03-06T21:34:56.851Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 26
+    "id": 26,
+    "apiVerified": true
   },
   {
     "name": "Web Development",
     "keyword": "web development",
     "category": "tech",
-    "difficulty": "High",
-    "difficultyScore": 85,
+    "difficulty": "Medium",
+    "difficultyScore": 40,
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 476166,
-      "avgViews": 53930843,
-      "topChannelSubs": 9440000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 80789,
+      "avgViews": 5457431,
+      "topChannelSubs": 774000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "5.38",
       "uploadFrequency": 4
     },
@@ -699,23 +726,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:25.662Z",
+    "lastUpdated": "2026-03-06T21:34:57.635Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 27
+    "id": 27,
+    "apiVerified": true
   },
   {
     "name": "Cybersecurity Tips",
     "keyword": "cybersecurity tips",
     "category": "tech",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
       "totalChannels": 25,
-      "avgSubscribers": 22073,
-      "avgViews": 993360,
-      "topChannelSubs": 413000,
+      "avgSubscribers": 20461,
+      "avgViews": 1053852,
+      "topChannelSubs": 418000,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.45",
       "uploadFrequency": 1
@@ -724,23 +752,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:29.749Z",
+    "lastUpdated": "2026-03-06T21:34:58.206Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 28
+    "id": 28,
+    "apiVerified": true
   },
   {
     "name": "Smartphone Reviews",
     "keyword": "smartphone reviews",
     "category": "tech",
-    "difficulty": "High",
+    "difficulty": "Very High",
     "difficultyScore": 90,
     "cpm": "$20-$35",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 25,
-      "avgSubscribers": 1460573,
-      "avgViews": 307743128,
-      "topChannelSubs": 15800000,
+      "totalChannels": 10,
+      "avgSubscribers": 2182407,
+      "avgViews": 648456579,
+      "topChannelSubs": 5060000,
       "competitionLevel": "High",
       "avgEngagementRate": "3.64",
       "uploadFrequency": 14
@@ -749,24 +778,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:33.946Z",
+    "lastUpdated": "2026-03-06T21:34:58.977Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 29
+    "id": 29,
+    "apiVerified": true
   },
   {
     "name": "Laptop Buying Guide",
     "keyword": "laptop buying guide",
     "category": "tech",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$20-$35",
     "monetization": "Digital Products, Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 9695,
-      "avgViews": 812348,
-      "topChannelSubs": 172000,
-      "competitionLevel": "Low",
+      "totalChannels": 10,
+      "avgSubscribers": 434890,
+      "avgViews": 144595546,
+      "topChannelSubs": 2340000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "4.09",
       "uploadFrequency": 1
     },
@@ -774,9 +804,10 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:38.195Z",
+    "lastUpdated": "2026-03-06T21:34:59.764Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 30
+    "id": 30,
+    "apiVerified": true
   },
   {
     "name": "Software Comparisons",
@@ -787,10 +818,10 @@ export const niches: Niche[] = [
     "cpm": "$20-$35",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 4567,
-      "avgViews": 30290,
-      "topChannelSubs": 83800,
+      "totalChannels": 10,
+      "avgSubscribers": 691,
+      "avgViews": 72116,
+      "topChannelSubs": 2880,
       "competitionLevel": "Low",
       "avgEngagementRate": "1.91",
       "uploadFrequency": 4
@@ -799,23 +830,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:42.649Z",
+    "lastUpdated": "2026-03-06T21:35:00.417Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 31
+    "id": 31,
+    "apiVerified": true
   },
   {
     "name": "Tech Unboxing",
     "keyword": "tech unboxing",
     "category": "tech",
-    "difficulty": "Medium",
-    "difficultyScore": 45,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 63556,
-      "avgViews": 13539049,
-      "topChannelSubs": 1070000,
+      "totalChannels": 10,
+      "avgSubscribers": 349122,
+      "avgViews": 48757907,
+      "topChannelSubs": 2210000,
       "competitionLevel": "Medium",
       "avgEngagementRate": "3.09",
       "uploadFrequency": 4
@@ -824,9 +856,10 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:46.883Z",
+    "lastUpdated": "2026-03-06T21:35:01.228Z",
     "description": "Moderate competition, suitable for creators with some experience.",
-    "id": 32
+    "id": 32,
+    "apiVerified": true
   },
   {
     "name": "Programming Challenges",
@@ -837,11 +870,11 @@ export const niches: Niche[] = [
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 233715,
-      "avgViews": 22373864,
-      "topChannelSubs": 2370000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 258317,
+      "avgViews": 18392739,
+      "topChannelSubs": 1760000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "3.63",
       "uploadFrequency": 6
     },
@@ -849,22 +882,23 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:29:50.765Z",
+    "lastUpdated": "2026-03-06T21:35:01.991Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 33
+    "id": 33,
+    "apiVerified": true
   },
   {
     "name": "Tech News Analysis",
     "keyword": "tech news analysis",
     "category": "tech",
-    "difficulty": "Medium",
-    "difficultyScore": 65,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 282693,
-      "avgViews": 57461719,
+      "totalChannels": 10,
+      "avgSubscribers": 562787,
+      "avgViews": 115528286,
       "topChannelSubs": 1990000,
       "competitionLevel": "High",
       "avgEngagementRate": "2.24",
@@ -874,24 +908,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:56.099Z",
+    "lastUpdated": "2026-03-06T21:35:02.539Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 34
+    "id": 34,
+    "apiVerified": true
   },
   {
     "name": "Gadget Reviews",
     "keyword": "gadget reviews",
     "category": "tech",
-    "difficulty": "High",
-    "difficultyScore": 80,
+    "difficulty": "Medium",
+    "difficultyScore": 40,
     "cpm": "$20-$35",
     "monetization": "Affiliate Marketing (High Intent), Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 513312,
-      "avgViews": 137260931,
-      "topChannelSubs": 3830000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 154912,
+      "avgViews": 44092242,
+      "topChannelSubs": 620000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "4.28",
       "uploadFrequency": 22
     },
@@ -899,24 +934,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:29:59.958Z",
+    "lastUpdated": "2026-03-06T21:35:03.326Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 35
+    "id": 35,
+    "apiVerified": true
   },
   {
     "name": "3d Printing Projects",
     "keyword": "3D printing projects",
     "category": "tech",
     "difficulty": "Medium",
-    "difficultyScore": 65,
+    "difficultyScore": 40,
     "cpm": "$20-$35",
     "monetization": "Sponsorships, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 209871,
-      "avgViews": 59435427,
-      "topChannelSubs": 3140000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 93851,
+      "avgViews": 16572641,
+      "topChannelSubs": 695000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "2.20",
       "uploadFrequency": 3
     },
@@ -924,23 +960,24 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:30:03.744Z",
+    "lastUpdated": "2026-03-06T21:35:04.091Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 36
+    "id": 36,
+    "apiVerified": true
   },
   {
     "name": "Home Workout Routines",
     "keyword": "home workout routines",
     "category": "health",
-    "difficulty": "High",
-    "difficultyScore": 85,
+    "difficulty": "Very High",
+    "difficultyScore": 90,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 4451581,
-      "avgViews": 785787160,
-      "topChannelSubs": 26000000,
+      "totalChannels": 10,
+      "avgSubscribers": 4179200,
+      "avgViews": 869386899,
+      "topChannelSubs": 11200000,
       "competitionLevel": "High",
       "avgEngagementRate": "2.60",
       "uploadFrequency": 15
@@ -949,23 +986,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:30:07.990Z",
+    "lastUpdated": "2026-03-06T21:35:04.708Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 37
+    "id": 37,
+    "apiVerified": true
   },
   {
     "name": "Meal Prep Ideas",
     "keyword": "meal prep ideas",
     "category": "health",
     "difficulty": "High",
-    "difficultyScore": 80,
+    "difficultyScore": 70,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 575244,
-      "avgViews": 85147880,
-      "topChannelSubs": 2720000,
+      "totalChannels": 10,
+      "avgSubscribers": 600645,
+      "avgViews": 106521809,
+      "topChannelSubs": 1600000,
       "competitionLevel": "High",
       "avgEngagementRate": "4.12",
       "uploadFrequency": 4
@@ -974,9 +1012,10 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:30:12.242Z",
+    "lastUpdated": "2026-03-06T21:35:05.469Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 38
+    "id": 38,
+    "apiVerified": true
   },
   {
     "name": "Weight Loss Journey",
@@ -987,11 +1026,11 @@ export const niches: Niche[] = [
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 319765,
-      "avgViews": 76772001,
-      "topChannelSubs": 2990000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 400794,
+      "avgViews": 120181460,
+      "topChannelSubs": 3000000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "3.29",
       "uploadFrequency": 7
     },
@@ -999,22 +1038,23 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:30:16.440Z",
+    "lastUpdated": "2026-03-06T21:35:06.269Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 39
+    "id": 39,
+    "apiVerified": true
   },
   {
     "name": "Yoga For Beginners",
     "keyword": "yoga for beginners",
     "category": "health",
-    "difficulty": "High",
-    "difficultyScore": 85,
+    "difficulty": "Very High",
+    "difficultyScore": 90,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 1339929,
-      "avgViews": 176489771,
+      "totalChannels": 10,
+      "avgSubscribers": 2288092,
+      "avgViews": 306607773,
       "topChannelSubs": 13500000,
       "competitionLevel": "High",
       "avgEngagementRate": "1.61",
@@ -1024,23 +1064,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:30:20.744Z",
+    "lastUpdated": "2026-03-06T21:35:07.000Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 40
+    "id": 40,
+    "apiVerified": true
   },
   {
     "name": "Mental Health Tips",
     "keyword": "mental health tips",
     "category": "health",
-    "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 7652,
-      "avgViews": 612051,
-      "topChannelSubs": 104000,
+      "totalChannels": 10,
+      "avgSubscribers": 45743,
+      "avgViews": 6244511,
+      "topChannelSubs": 217000,
       "competitionLevel": "Low",
       "avgEngagementRate": "4.86",
       "uploadFrequency": 1
@@ -1049,22 +1090,23 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:30:25.247Z",
+    "lastUpdated": "2026-03-06T21:35:07.799Z",
     "description": "Low competition niche with growth potential. High engagement rates indicate active audience. No dominant players, opportunity for new entrants.",
-    "id": 41
+    "id": 41,
+    "apiVerified": true
   },
   {
     "name": "Sleep Optimization",
     "keyword": "sleep optimization",
     "category": "health",
     "difficulty": "Low",
-    "difficultyScore": 20,
+    "difficultyScore": 15,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 415,
-      "avgViews": 214384,
+      "totalChannels": 10,
+      "avgSubscribers": 520,
+      "avgViews": 58230,
       "topChannelSubs": 4850,
       "competitionLevel": "Low",
       "avgEngagementRate": "3.65",
@@ -1074,24 +1116,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:30:29.445Z",
+    "lastUpdated": "2026-03-06T21:35:08.576Z",
     "description": "Low competition niche with growth potential. No dominant players, opportunity for new entrants.",
-    "id": 42
+    "id": 42,
+    "apiVerified": true
   },
   {
     "name": "Healthy Recipes",
     "keyword": "healthy recipes",
     "category": "health",
-    "difficulty": "Medium",
-    "difficultyScore": 65,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 293630,
-      "avgViews": 115599784,
+      "totalChannels": 10,
+      "avgSubscribers": 362367,
+      "avgViews": 192247972,
       "topChannelSubs": 2420000,
-      "competitionLevel": "High",
+      "competitionLevel": "Medium",
       "avgEngagementRate": "2.39",
       "uploadFrequency": 14
     },
@@ -1099,23 +1142,24 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 75
     },
-    "lastUpdated": "2026-02-11T07:30:33.849Z",
+    "lastUpdated": "2026-03-06T21:35:09.422Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 43
+    "id": 43,
+    "apiVerified": true
   },
   {
     "name": "Fitness Motivation",
     "keyword": "fitness motivation",
     "category": "health",
-    "difficulty": "Low",
-    "difficultyScore": 35,
+    "difficulty": "Medium",
+    "difficultyScore": 40,
     "cpm": "$15-$30",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 51887,
-      "avgViews": 4593423,
-      "topChannelSubs": 874000,
+      "totalChannels": 10,
+      "avgSubscribers": 141591,
+      "avgViews": 16445051,
+      "topChannelSubs": 875000,
       "competitionLevel": "Medium",
       "avgEngagementRate": 0,
       "uploadFrequency": 3
@@ -1124,23 +1168,24 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 50
     },
-    "lastUpdated": "2026-02-11T07:30:37.576Z",
+    "lastUpdated": "2026-03-06T21:35:10.289Z",
     "description": "Moderate competition, suitable for creators with some experience.",
-    "id": 44
+    "id": 44,
+    "apiVerified": true
   },
   {
     "name": "Meditation Guide",
     "keyword": "meditation guide",
     "category": "health",
-    "difficulty": "Medium",
-    "difficultyScore": 65,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$15-$30",
     "monetization": "Digital Products, Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 391127,
-      "avgViews": 99185512,
-      "topChannelSubs": 3650000,
+      "totalChannels": 10,
+      "avgSubscribers": 793538,
+      "avgViews": 190039681,
+      "topChannelSubs": 3660000,
       "competitionLevel": "High",
       "avgEngagementRate": 0,
       "uploadFrequency": 6
@@ -1149,24 +1194,25 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:30:43.987Z",
+    "lastUpdated": "2026-03-06T21:35:11.054Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 45
+    "id": 45,
+    "apiVerified": true
   },
   {
     "name": "Car Maintenance Tips",
     "keyword": "car maintenance tips",
     "category": "automotive",
-    "difficulty": "Medium",
-    "difficultyScore": 65,
+    "difficulty": "High",
+    "difficultyScore": 70,
     "cpm": "$15-$25",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 50,
-      "avgSubscribers": 359668,
-      "avgViews": 95849192,
-      "topChannelSubs": 2790000,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 344936,
+      "avgViews": 125224308,
+      "topChannelSubs": 2810000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": 0,
       "uploadFrequency": 15
     },
@@ -1174,23 +1220,24 @@ export const niches: Niche[] = [
       "status": "Declining",
       "score": 25
     },
-    "lastUpdated": "2026-02-11T07:32:13.897Z",
+    "lastUpdated": "2026-03-06T21:35:11.809Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 46
+    "id": 46,
+    "apiVerified": true
   },
   {
     "name": "Minimalist Living",
     "keyword": "minimalist living",
     "category": "lifestyle",
     "difficulty": "Medium",
-    "difficultyScore": 58,
+    "difficultyScore": 40,
     "cpm": "$8-$18",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 48,
-      "avgSubscribers": 143425,
-      "avgViews": 4601884,
-      "topChannelSubs": 274872,
+      "totalChannels": 10,
+      "avgSubscribers": 146302,
+      "avgViews": 21799637,
+      "topChannelSubs": 853000,
       "competitionLevel": "Medium",
       "avgEngagementRate": "1.39",
       "uploadFrequency": 9
@@ -1199,23 +1246,24 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 51
     },
-    "lastUpdated": "2026-03-06T13:37:33.378Z",
+    "lastUpdated": "2026-03-06T21:35:12.348Z",
     "description": "Moderate competition, suitable for creators with some experience. No dominant players, opportunity for new entrants.",
-    "id": 47
+    "id": 47,
+    "apiVerified": true
   },
   {
     "name": "Tiny House Tour",
     "keyword": "tiny house tour",
     "category": "lifestyle",
     "difficulty": "High",
-    "difficultyScore": 77,
+    "difficultyScore": 70,
     "cpm": "$8-$18",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 34,
-      "avgSubscribers": 524163,
-      "avgViews": 4902185,
-      "topChannelSubs": 3047933,
+      "totalChannels": 10,
+      "avgSubscribers": 1352992,
+      "avgViews": 248293193,
+      "topChannelSubs": 4740000,
       "competitionLevel": "High",
       "avgEngagementRate": "3.53",
       "uploadFrequency": 5
@@ -1224,24 +1272,25 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 72
     },
-    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "lastUpdated": "2026-03-06T21:35:13.108Z",
     "description": "High competition market requiring strong content differentiation. High engagement rates indicate active audience.",
-    "id": 48
+    "id": 48,
+    "apiVerified": true
   },
   {
     "name": "Van Life",
     "keyword": "van life",
     "category": "lifestyle",
     "difficulty": "High",
-    "difficultyScore": 82,
+    "difficultyScore": 70,
     "cpm": "$8-$18",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 20,
-      "avgSubscribers": 174979,
-      "avgViews": 8443300,
-      "topChannelSubs": 1766989,
-      "competitionLevel": "High",
+      "totalChannels": 10,
+      "avgSubscribers": 326577,
+      "avgViews": 75817199,
+      "topChannelSubs": 1280000,
+      "competitionLevel": "Medium",
       "avgEngagementRate": "2.86",
       "uploadFrequency": 10
     },
@@ -1249,24 +1298,25 @@ export const niches: Niche[] = [
       "status": "Stable",
       "score": 46
     },
-    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "lastUpdated": "2026-03-06T21:35:13.899Z",
     "description": "High competition market requiring strong content differentiation.",
-    "id": 49
+    "id": 49,
+    "apiVerified": true
   },
   {
     "name": "Sustainable Living",
     "keyword": "sustainable living",
     "category": "lifestyle",
-    "difficulty": "Medium",
-    "difficultyScore": 60,
+    "difficulty": "Low-Medium",
+    "difficultyScore": 25,
     "cpm": "$8-$18",
     "monetization": "Ad Revenue",
     "metrics": {
-      "totalChannels": 30,
-      "avgSubscribers": 44627,
-      "avgViews": 1276600,
-      "topChannelSubs": 1491512,
-      "competitionLevel": "Medium",
+      "totalChannels": 25,
+      "avgSubscribers": 18290,
+      "avgViews": 3456353,
+      "topChannelSubs": 145000,
+      "competitionLevel": "Low",
       "avgEngagementRate": "2.82",
       "uploadFrequency": 6
     },
@@ -1274,9 +1324,10 @@ export const niches: Niche[] = [
       "status": "Rising",
       "score": 85
     },
-    "lastUpdated": "2026-03-06T13:37:33.379Z",
+    "lastUpdated": "2026-03-06T21:35:14.699Z",
     "description": "Moderate competition, suitable for creators with some experience.",
-    "id": 50
+    "id": 50,
+    "apiVerified": true
   },
   {
     "name": "Morning Routines",
