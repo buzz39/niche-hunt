@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { blogPosts } from './data/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://niche-hunt.vercel.app';
+  const baseUrl = 'https://nichehunt.xyz';
 
   const blogUrls = blogPosts.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,

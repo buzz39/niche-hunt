@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "NicheHunt — Profitable YouTube Niche Database for Creators",
   description: "Discover high-CPM, low-competition YouTube niches backed by real data. Analyzed using YouTube API with difficulty scores, CPM estimates, and trend data.",
-  metadataBase: new URL("https://niche-hunt.vercel.app"),
+  metadataBase: new URL("https://nichehunt.xyz"),
   openGraph: {
     title: "NicheHunt — Profitable YouTube Niche Database",
     description: "170+ data-driven YouTube niches with CPM estimates, difficulty scores, and trend analysis.",
