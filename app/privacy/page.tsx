@@ -132,7 +132,7 @@ export default function Privacy() {
             <h2 className="text-xl font-semibold text-white mb-3">11. Contact Us</h2>
             <p>
               For privacy-related questions or to exercise your data rights, contact us at:{" "}
-              <span className="text-emerald-400">support@nichehunt.com</span>
+              <span className="text-emerald-400">hello@g-compilations.com</span>
             </p>
           </section>
         </div>

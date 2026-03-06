@@ -115,7 +115,7 @@ export default function Terms() {
             <h2 className="text-xl font-semibold text-white mb-3">10. Contact</h2>
             <p>
               For questions about these Terms, refund requests, or other inquiries, please contact us at:{" "}
-              <span className="text-emerald-400">support@nichehunt.com</span>
+              <span className="text-emerald-400">hello@g-compilations.com</span>
             </p>
           </section>
         </div>
