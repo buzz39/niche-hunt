@@ -645,7 +645,7 @@ The best time to start was yesterday. The second best time is now.
 
 Your first step is picking the right niche. Everything else follows from that decision.
 `
-  }
+  },
   {
     slug: "best-youtube-shorts-niches",
     title: "Best YouTube Shorts Niches: High RPM Ideas That Go Viral in 2026",
