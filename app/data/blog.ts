@@ -810,7 +810,7 @@ Don't guess which niche will work for your Shorts channel. The same principles t
 
 Your Shorts niche should be a subset of a profitable long-form niche. Start with the data, then create content that scales.
 `
-  }
+  },
   {
     slug: "cash-cow-youtube-channels-guide",
     title: "Cash Cow YouTube Channels: The Complete Guide to Building One in 2026",
