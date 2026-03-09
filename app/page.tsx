@@ -51,15 +51,39 @@ export default function Home() {
     document.body.removeChild(a);
   };
 
-  const handleRestore = () => {
-    const key = prompt('Enter your purchase key (or type UNLOCK if you purchased via Gumroad):');
-    if (key) {
-      localStorage.setItem('nichehunt_unlocked', 'true');
-      setUnlockAnimation(true);
-      setTimeout(() => {
-        setIsUnlocked(true);
-        setUnlockAnimation(false);
-      }, 600);
+  const [verifyError, setVerifyError] = useState('');
+  const [verifying, setVerifying] = useState(false);
+
+  const handleRestore = async () => {
+    const key = prompt('Enter your Gumroad license key (from your purchase confirmation email):');
+    if (!key || key.trim().length < 5) return;
+
+    setVerifying(true);
+    setVerifyError('');
+    try {
+      const res = await fetch('/api/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ license_key: key.trim() }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        localStorage.setItem('nichehunt_unlocked', 'true');
+        localStorage.setItem('nichehunt_key', key.trim());
+        setUnlockAnimation(true);
+        setTimeout(() => {
+          setIsUnlocked(true);
+          setUnlockAnimation(false);
+        }, 600);
+      } else {
+        setVerifyError(data.error || 'Invalid license key. Please check your purchase email for the correct key.');
+        alert(data.error || 'Invalid license key. Please check your purchase email.');
+      }
+    } catch {
+      setVerifyError('Verification failed. Please try again.');
+      alert('Verification failed. Please try again.');
+    } finally {
+      setVerifying(false);
     }
   };
 
@@ -91,8 +115,9 @@ export default function Home() {
     });
   }, [selectedCategory, sortBy, searchQuery]);
 
-  const visibleNiches = isUnlocked ? filteredNiches : filteredNiches.slice(0, 5);
-  const lockedCount = filteredNiches.length - 5;
+  const FREE_PREVIEW_COUNT = 10;
+  const visibleNiches = isUnlocked ? filteredNiches : filteredNiches.slice(0, FREE_PREVIEW_COUNT);
+  const lockedCount = filteredNiches.length - FREE_PREVIEW_COUNT;
   const totalNiches = niches.length;
   const lowDiffCount = niches.filter(n => n.difficulty === 'Low').length;
   const categories = new Set(niches.map(n => n.category)).size;
@@ -147,8 +172,8 @@ export default function Home() {
             <div className="flex items-center gap-4 text-sm text-slate-500">
               <span>Data sourced from YouTube API</span>
               {!isUnlocked && (
-                <button onClick={handleRestore} className="text-emerald-500 hover:text-emerald-400 underline underline-offset-2 transition-colors">
-                  Restore Purchase
+                <button onClick={handleRestore} disabled={verifying} className="text-emerald-500 hover:text-emerald-400 underline underline-offset-2 transition-colors disabled:opacity-50">
+                  {verifying ? 'Verifying...' : 'Restore Purchase'}
                 </button>
               )}
             </div>
