@@ -9,6 +9,168 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-find-trending-youtube-topics",
+    title: "How to Find Trending YouTube Topics Before They Blow Up",
+    description: "Learn proven methods to find trending YouTube topics before competitors. Use Google Trends, YouTube API data, and niche research tools to spot viral opportunities early.",
+    date: "2026-03-09",
+    author: "NicheHunt Team",
+    content: `
+# How to Find Trending YouTube Topics Before They Blow Up
+
+The creators who grow fastest on YouTube aren't the most talented editors or the most charismatic speakers — they're the ones who spot trends early. Getting in on a topic before it saturates can mean the difference between 500 views and 500,000 views on the same video.
+
+But "find trending topics" is vague advice. Where do you actually look? How do you separate a real trend from noise? And how do you move fast enough to capitalize before everyone else catches on?
+
+Here's the systematic approach we use — no guessing, no guru opinions, just data.
+
+## Why Trending Topics Matter for Growth
+
+YouTube's algorithm rewards two things above all else: **click-through rate (CTR)** and **watch time**. Trending topics naturally boost both:
+
+- **Higher CTR** — people are actively searching for and curious about trending subjects
+- **Longer watch time** — viewers engage more deeply with timely, relevant content
+- **Suggested video placement** — YouTube pushes trending content to non-subscribers through Browse and Suggested
+
+A single well-timed trending video can bring more subscribers than 20 evergreen videos. The trick is pairing trend-riding with a solid [niche strategy](/blog/best-youtube-niches-2026) so those new subscribers stick around.
+
+## 7 Proven Methods to Find Trending YouTube Topics
+
+### 1. Google Trends (Free — Start Here)
+
+Google Trends is the most underrated trend-spotting tool available. Most creators glance at it once and move on. Here's how to use it properly:
+
+**Daily trending searches:** Visit [Google Trends Trending Now](https://trends.google.com/trending) daily. Filter by your country and category. Look for topics that intersect with your niche.
+
+**Breakout keywords:** When searching a term, scroll to "Related queries" and look for anything labeled "Breakout" (250%+ growth). These are early-stage trends with massive upside.
+
+**Compare terms over time:** Plot 2–3 potential video topics against each other. The one with rising momentum wins.
+
+**Pro tip:** Set up Google Alerts for your niche's core keywords. You'll get daily emails when new content spikes around those terms — an early warning system for trends.
+
+### 2. YouTube Search Suggestions (Free)
+
+Start typing a keyword in YouTube's search bar and watch the autocomplete suggestions. These are real searches people are making right now. YouTube surfaces the most popular and rising queries.
+
+**The alphabet method:**
+1. Type your niche keyword + "a" → note suggestions
+2. Type your niche keyword + "b" → note suggestions
+3. Continue through the alphabet
+
+This gives you dozens of real search terms. Compare them weekly — new suggestions appearing means new trends forming.
+
+### 3. YouTube Trending Tab + Explore (Free)
+
+The Trending tab shows what's blowing up right now, but it's mostly entertainment and news. More useful is the **Explore** section, where you can browse trending videos by category.
+
+Look for patterns, not individual videos. If three different creators in your niche all posted about the same sub-topic this week, that's a trend signal.
+
+### 4. Reddit & Online Communities (Free)
+
+Reddit is where trends often start before they hit YouTube. Subscribe to subreddits related to your niche and sort by "Rising" or "Hot."
+
+**For example:**
+- Finance niche → r/personalfinance, r/CreditCards, r/financialindependence
+- Tech niche → r/technology, r/artificial, r/cybersecurity
+- Productivity → r/productivity, r/Notion, r/getdisciplined
+
+When a post gets 500+ upvotes and sparks heated discussion, there's likely a YouTube video in it. You'll often have a 3–7 day window before YouTube creators pick it up.
+
+### 5. Twitter/X Trending Topics & Industry Accounts (Free)
+
+Follow industry leaders, journalists, and companies in your niche. When a major announcement, controversy, or product launch happens, you'll see it on Twitter/X first.
+
+**Speed matters here.** The first YouTube video covering a breaking topic gets the majority of search traffic. Have a rapid-production workflow ready — you might need to publish within 24–48 hours.
+
+### 6. Competitor Channel Analysis (Free)
+
+Study what's working for channels in your niche right now:
+
+- Sort competitor videos by "Most popular" → see what resonates with the audience
+- Check their most recent uploads → what topics are they betting on?
+- Look at videos with unusually high view counts relative to their subscriber base — those topics have outsized demand
+
+Don't copy — improve. If a competitor's trending video has mediocre production or misses key points, make the definitive version.
+
+### 7. NicheHunt Trend Data (Database)
+
+Our [niche database](/) tracks Google Trends scores for every niche, updated monthly. This lets you spot macro trends — entire niches that are rising, not just individual topics.
+
+For example, if Cybersecurity's trend score jumps from 60 to 80, that means the entire category is gaining search interest. Every video you make in that niche benefits from the rising tide.
+
+Combine macro niche trends with micro topic trends (from methods 1–6 above) for the highest-probability content bets.
+
+## How to Evaluate If a Trend Is Worth Chasing
+
+Not every trend is worth a video. Filter with these criteria:
+
+### Relevance to Your Niche
+A trending topic outside your niche might get views but won't convert to subscribers. Stay in your lane — or at least adjacent to it. If you run a [faceless finance channel](/blog/faceless-youtube-channel-ideas), a trending crypto regulation story fits. A trending celebrity drama does not.
+
+### Longevity
+Some trends last days (news events), others last months (new technology, shifting habits). Prioritize trends with longer tails — your video will accumulate views for weeks instead of dying after 48 hours.
+
+**Quick test:** Will people still search for this in 30 days? If yes, it's worth a polished video. If no, only chase it if you can publish within 24 hours.
+
+### Competition Speed
+How fast are other creators covering this? Check YouTube search — if 10 channels already posted about it today, you're probably too late unless you can offer a genuinely better take.
+
+### CPM Alignment
+A trending topic in a high-CPM niche is worth 10x more than a trend in a low-CPM niche. Always factor in the [revenue potential](/blog/youtube-cpm-by-niche-complete-guide) when deciding what to create.
+
+## Building a Trend-Spotting System
+
+The creators who consistently catch trends aren't lucky — they have systems. Here's a daily routine that takes 20 minutes:
+
+**Morning check (10 minutes):**
+1. Scan Google Trends Trending Now (2 min)
+2. Check Reddit rising posts in 2–3 niche subreddits (3 min)
+3. Scroll Twitter/X for industry news (3 min)
+4. Check YouTube search suggestions for your core keywords (2 min)
+
+**Weekly review (30 minutes):**
+1. Analyze competitor uploads — any new patterns?
+2. Compare Google Trends data for your niche keywords week-over-week
+3. Review your own analytics — which recent topics overperformed?
+4. Plan next week's content based on trend signals
+
+**Monthly strategy (1 hour):**
+1. Check [NicheHunt database](/) for macro trend shifts
+2. Identify emerging sub-niches within your category
+3. Adjust your content calendar for the next 30 days
+
+## Trending Topics vs. Evergreen Content: The Right Mix
+
+The best YouTube channels balance both:
+
+- **70% evergreen content** — ranks in search for months/years, builds passive traffic
+- **30% trending content** — drives spikes in growth, attracts new audiences
+
+Evergreen content is your foundation. Trending content is your growth accelerator. A channel that only chases trends has no stability. A channel that never covers trends grows slowly.
+
+For [YouTube automation](/blog/youtube-automation-faceless-channels-2026) operators running multiple channels, this ratio might shift to 80/20 evergreen — the systems favor repeatable, templated content over rapid-response production.
+
+## Trending Topics for YouTube Shorts
+
+[YouTube Shorts](/blog/best-youtube-shorts-niches) are especially well-suited for trend-riding because:
+
+- **Production is fast** — you can create a Short in 30 minutes
+- **Algorithm favors recency** — Shorts surface trending content aggressively
+- **Low risk** — if a trend fizzles, you've only invested 30 minutes
+
+When you spot a trend, consider making a Short first (for speed and reach) and then a long-form video (for CPM and depth) if the trend has legs.
+
+## Start Finding Trends Today
+
+Trend-spotting isn't a talent — it's a habit. Build the daily routine, use the tools, and you'll consistently find topics before they peak.
+
+But trending topics only matter if you're in the right niche to begin with. A trending topic in a [low-competition, high-CPM niche](/blog/how-to-find-low-competition-youtube-niches) is exponentially more valuable than one in a saturated, low-paying category.
+
+**[→ Explore the NicheHunt database](/)** — 46+ niches with trend data, CPM estimates, and difficulty scores. Find a niche where trends actually pay. One-time $9 access, updated monthly.
+
+The best time to catch a trend is before everyone else sees it. Start watching today.
+`
+  },
+  {
     slug: "best-youtube-niches-2026",
     title: "Best YouTube Niches 2026: High CPM, Low Competition",
     description: "Discover the most profitable YouTube niches in 2026. We analyzed 46+ niches using YouTube API data to find high-CPM opportunities with low competition.",
