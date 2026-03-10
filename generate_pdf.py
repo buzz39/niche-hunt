@@ -1,234 +1,319 @@
 #!/usr/bin/env python3
-"""Generate the NicheHunt premium PDF deliverable."""
+"""Generate the NicheHunt premium PDF deliverable using ReportLab."""
 import json
-from fpdf import FPDF
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.colors import HexColor, white, black
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.units import inch
+from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
+from reportlab.platypus import (
+    SimpleDocTemplate, Table, TableStyle, Paragraph, Spacer,
+    PageBreak, KeepTogether, Flowable
+)
+from reportlab.graphics.shapes import Drawing, Rect, String
+from reportlab.pdfgen.canvas import Canvas
 
+# Colors
+NAVY = HexColor('#1a1a2e')
+GOLD = HexColor('#f0c040')
+LIGHT_GRAY = HexColor('#f0f0f0')
+DARK_GRAY = HexColor('#333333')
+GREEN = HexColor('#2ecc71')
+ORANGE = HexColor('#e67e22')
+RED = HexColor('#e74c3c')
+WHITE = white
+MEDIUM_GRAY = HexColor('#666666')
+
+PAGE_W, PAGE_H = letter
+
+# Load data
 with open("niches.json") as f:
     niches = json.load(f)
 
-# Group by category
 categories = {}
 for n in niches:
-    cat = n["category"]
+    cat = n.get("category", "Other").title()
     categories.setdefault(cat, []).append(n)
 
-def parse_cpm_min(cpm):
-    import re
-    m = re.search(r'\$(\d+)', cpm)
-    return int(m.group(1)) if m else 0
+def difficulty_color(diff):
+    d = diff.lower()
+    if 'high' in d: return RED
+    if 'medium' in d: return ORANGE
+    return GREEN
 
-def parse_cpm_max(cpm):
-    import re
-    ms = re.findall(r'\$(\d+)', cpm)
-    return int(ms[-1]) if ms else 0
+def parse_cpm_avg(cpm_str):
+    """Parse CPM string like '$40-$60' and return average float."""
+    try:
+        parts = cpm_str.replace('$', '').split('-')
+        return sum(float(p) for p in parts) / len(parts)
+    except:
+        return 0
 
-# Sort helpers
-top_by_cpm = sorted(niches, key=lambda n: parse_cpm_max(n["cpm"]), reverse=True)[:10]
-top_easiest = sorted(niches, key=lambda n: n["difficultyScore"])[:10]
-top_trending = [n for n in niches if n["trend"]["status"] == "Rising"]
-top_trending.sort(key=lambda n: n["trend"]["score"], reverse=True)
-top_trending = top_trending[:10]
-
-class PDF(FPDF):
-    def header(self):
-        if self.page_no() > 1:
-            self.set_font("Helvetica", "I", 8)
-            self.set_text_color(130, 130, 130)
-            self.cell(0, 8, "NicheHunt Database 2026 - nichehunt.xyz", align="C")
-            self.ln(4)
-            self.set_draw_color(200, 200, 200)
-            self.line(10, self.get_y(), 200, self.get_y())
-            self.ln(4)
-
-    def footer(self):
-        self.set_y(-15)
-        self.set_font("Helvetica", "I", 8)
-        self.set_text_color(150, 150, 150)
-        self.cell(0, 10, f"Page {self.page_no()}/{{nb}}", align="C")
-
-pdf = PDF()
-pdf.alias_nb_pages()
-pdf.set_auto_page_break(auto=True, margin=20)
-
-# ─── COVER PAGE ───
-pdf.add_page()
-pdf.ln(50)
-pdf.set_font("Helvetica", "B", 36)
-pdf.set_text_color(16, 185, 129)  # emerald
-pdf.cell(0, 15, "NicheHunt", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.set_font("Helvetica", "B", 24)
-pdf.set_text_color(30, 30, 30)
-pdf.cell(0, 12, "Database 2026", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(8)
-pdf.set_font("Helvetica", "", 16)
-pdf.set_text_color(80, 80, 80)
-pdf.cell(0, 10, f"{len(niches)} YouTube Niches Analyzed", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(0, 10, f"{len(categories)} Categories | CPM, Difficulty, Trends & More", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(20)
-pdf.set_font("Helvetica", "", 11)
-pdf.set_text_color(100, 100, 100)
-pdf.cell(0, 8, "Data sourced from YouTube Data API v3 & Google Trends", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(0, 8, "Updated March 2026", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(30)
-pdf.set_font("Helvetica", "B", 12)
-pdf.set_text_color(16, 185, 129)
-pdf.cell(0, 8, "Live updated data: nichehunt.xyz", align="C", new_x="LMARGIN", new_y="NEXT")
-
-# ─── HOW TO USE ───
-pdf.add_page()
-pdf.set_font("Helvetica", "B", 22)
-pdf.set_text_color(30, 30, 30)
-pdf.cell(0, 12, "How to Use This Guide", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(4)
-pdf.set_font("Helvetica", "", 11)
-pdf.set_text_color(50, 50, 50)
-
-guide_text = [
-    ("1. Understand the Metrics", "Each niche includes a difficulty score (1-100), estimated CPM range, trend direction, competition level, average subscriber counts, engagement rates, and upload frequency. Use these together to find your sweet spot."),
-    ("2. Filter by Your Experience Level", "New to YouTube? Focus on niches with difficulty scores under 30 (marked 'Low'). These have fewer dominant players and lower production requirements. Experienced? Higher-difficulty niches often have better CPM."),
-    ("3. Check the Trend", "Rising niches are growing in demand - getting in early gives you an advantage. Stable niches are reliable. Declining niches may still be profitable but require a unique angle."),
-    ("4. Evaluate CPM vs Competition", "High CPM + Low Competition = Gold. Sort by CPM and cross-reference with difficulty. The summary tables at the end highlight the best opportunities."),
-    ("5. Use the Website for Live Data", "This PDF is a snapshot. Visit nichehunt.xyz for the most current data, searchable and filterable in real-time."),
-]
-for title, body in guide_text:
-    pdf.ln(3)
-    pdf.set_font("Helvetica", "B", 12)
-    pdf.set_text_color(16, 185, 129)
-    pdf.cell(0, 8, title, new_x="LMARGIN", new_y="NEXT")
-    pdf.set_font("Helvetica", "", 10)
-    pdf.set_text_color(50, 50, 50)
-    pdf.multi_cell(0, 5.5, body)
-
-# ─── TABLE OF CONTENTS ───
-pdf.add_page()
-pdf.set_font("Helvetica", "B", 22)
-pdf.set_text_color(30, 30, 30)
-pdf.cell(0, 12, "Table of Contents", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(6)
-pdf.set_font("Helvetica", "", 11)
-pdf.set_text_color(50, 50, 50)
-
-sorted_cats = sorted(categories.keys())
-for cat in sorted_cats:
-    count = len(categories[cat])
-    pdf.cell(0, 7, f"  {cat.title()} ({count} niches)", new_x="LMARGIN", new_y="NEXT")
-
-pdf.ln(4)
-pdf.cell(0, 7, "  Summary: Top 10 by CPM", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(0, 7, "  Summary: Top 10 Easiest", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(0, 7, "  Summary: Top 10 Trending Up", new_x="LMARGIN", new_y="NEXT")
-
-# ─── NICHE PAGES BY CATEGORY ───
-def render_niche(pdf, n, idx):
-    # Check space
-    if pdf.get_y() > 230:
-        pdf.add_page()
-    
-    # Niche header
-    pdf.set_font("Helvetica", "B", 13)
-    pdf.set_text_color(30, 30, 30)
-    pdf.cell(0, 8, f"{idx}. {n['name']}", new_x="LMARGIN", new_y="NEXT")
-    
-    pdf.set_font("Helvetica", "", 9.5)
-    pdf.set_text_color(70, 70, 70)
-    
-    # Key metrics line
-    diff_color = (16, 185, 129) if n["difficultyScore"] <= 30 else (234, 179, 8) if n["difficultyScore"] <= 60 else (239, 68, 68)
-    
-    line1 = f"Category: {n['category'].title()}  |  CPM: {n['cpm']}  |  Difficulty: {n['difficulty']} ({n['difficultyScore']}/100)  |  Trend: {n['trend']['status']}"
-    pdf.cell(0, 5.5, line1, new_x="LMARGIN", new_y="NEXT")
-    
-    line2 = f"Monetization: {n['monetization']}"
-    pdf.cell(0, 5.5, line2, new_x="LMARGIN", new_y="NEXT")
-    
-    m = n["metrics"]
-    line3 = f"Channels Analyzed: {m['totalChannels']}  |  Avg Subscribers: {m['avgSubscribers']:,}  |  Avg Views: {m['avgViews']:,}"
-    pdf.cell(0, 5.5, line3, new_x="LMARGIN", new_y="NEXT")
-    
-    line4 = f"Top Channel: {m['topChannelSubs']:,} subs  |  Competition: {m['competitionLevel']}  |  Engagement: {m['avgEngagementRate']}%  |  Upload Freq: {m['uploadFrequency']}/month"
-    pdf.cell(0, 5.5, line4, new_x="LMARGIN", new_y="NEXT")
-    
-    # Description
-    if n.get("description"):
-        pdf.set_font("Helvetica", "I", 9)
-        pdf.set_text_color(100, 100, 100)
-        pdf.multi_cell(0, 5, n["description"])
-    
-    pdf.ln(4)
-    pdf.set_draw_color(220, 220, 220)
-    pdf.line(10, pdf.get_y(), 200, pdf.get_y())
-    pdf.ln(3)
-
-idx = 1
-for cat in sorted_cats:
-    pdf.add_page()
-    pdf.set_font("Helvetica", "B", 20)
-    pdf.set_text_color(16, 185, 129)
-    pdf.cell(0, 12, f"{cat.title()}", new_x="LMARGIN", new_y="NEXT")
-    pdf.set_font("Helvetica", "", 10)
-    pdf.set_text_color(100, 100, 100)
-    pdf.cell(0, 6, f"{len(categories[cat])} niches in this category", new_x="LMARGIN", new_y="NEXT")
-    pdf.ln(6)
-    
-    for n in sorted(categories[cat], key=lambda x: x["difficultyScore"]):
-        render_niche(pdf, n, idx)
-        idx += 1
-
-# ─── SUMMARY TABLES ───
-def render_summary_table(pdf, title, data, value_fn):
-    pdf.add_page()
-    pdf.set_font("Helvetica", "B", 20)
-    pdf.set_text_color(16, 185, 129)
-    pdf.cell(0, 12, title, new_x="LMARGIN", new_y="NEXT")
-    pdf.ln(4)
-    
+def header_footer(canvas, doc):
+    """Draw header and footer on every page (except cover)."""
+    if doc.page == 1:
+        return
+    canvas.saveState()
     # Header
-    pdf.set_font("Helvetica", "B", 10)
-    pdf.set_text_color(255, 255, 255)
-    pdf.set_fill_color(30, 30, 30)
-    pdf.cell(8, 8, "#", border=1, fill=True, align="C")
-    pdf.cell(60, 8, "Niche", border=1, fill=True)
-    pdf.cell(30, 8, "Category", border=1, fill=True)
-    pdf.cell(25, 8, "CPM", border=1, fill=True, align="C")
-    pdf.cell(25, 8, "Difficulty", border=1, fill=True, align="C")
-    pdf.cell(25, 8, "Trend", border=1, fill=True, align="C")
-    pdf.cell(17, 8, "Value", border=1, fill=True, align="C")
-    pdf.ln()
-    
-    pdf.set_font("Helvetica", "", 9)
-    pdf.set_text_color(50, 50, 50)
-    for i, n in enumerate(data):
-        bg = (245, 245, 245) if i % 2 == 0 else (255, 255, 255)
-        pdf.set_fill_color(*bg)
-        pdf.cell(8, 7, str(i+1), border=1, fill=True, align="C")
-        name = n["name"][:30]
-        pdf.cell(60, 7, name, border=1, fill=True)
-        pdf.cell(30, 7, n["category"].title(), border=1, fill=True)
-        pdf.cell(25, 7, n["cpm"], border=1, fill=True, align="C")
-        pdf.cell(25, 7, f"{n['difficultyScore']}/100", border=1, fill=True, align="C")
-        pdf.cell(25, 7, n["trend"]["status"], border=1, fill=True, align="C")
-        pdf.cell(17, 7, str(value_fn(n)), border=1, fill=True, align="C")
-        pdf.ln()
+    canvas.setFillColor(NAVY)
+    canvas.setFont('Helvetica-Bold', 9)
+    canvas.drawString(54, PAGE_H - 36, "NicheHunt Database 2026")
+    canvas.setFont('Helvetica', 9)
+    canvas.drawRightString(PAGE_W - 54, PAGE_H - 36, f"Page {doc.page}")
+    # Gold line
+    canvas.setStrokeColor(GOLD)
+    canvas.setLineWidth(1.5)
+    canvas.line(54, PAGE_H - 42, PAGE_W - 54, PAGE_H - 42)
+    canvas.restoreState()
 
-render_summary_table(pdf, "Top 10 by Highest CPM", top_by_cpm, lambda n: n["cpm"])
-render_summary_table(pdf, "Top 10 Easiest to Enter", top_easiest, lambda n: f"{n['difficultyScore']}")
-render_summary_table(pdf, "Top 10 Trending Up", top_trending, lambda n: f"{n['trend']['score']}")
+def build_cover(story):
+    """Build cover page elements using a full-page table hack."""
+    # We'll draw the cover via a custom flowable approach
+    story.append(CoverPage())
+    story.append(PageBreak())
 
-# ─── FINAL PAGE ───
-pdf.add_page()
-pdf.ln(40)
-pdf.set_font("Helvetica", "B", 24)
-pdf.set_text_color(16, 185, 129)
-pdf.cell(0, 12, "Thank You!", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(8)
-pdf.set_font("Helvetica", "", 12)
-pdf.set_text_color(80, 80, 80)
-pdf.cell(0, 8, "Visit nichehunt.xyz for live, searchable, updated data.", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.cell(0, 8, "Questions? Email hello@g-compilations.com", align="C", new_x="LMARGIN", new_y="NEXT")
-pdf.ln(10)
-pdf.set_font("Helvetica", "", 10)
-pdf.set_text_color(150, 150, 150)
-pdf.cell(0, 8, "© 2026 NicheHunt. All rights reserved.", align="C", new_x="LMARGIN", new_y="NEXT")
+class CoverPage(Flowable):
+    """Custom flowable for the cover page."""
+    def __init__(self):
+        Flowable.__init__(self)
+        self.width = PAGE_W
+        self.height = PAGE_H
+    def wrap(self, availWidth, availHeight):
+        return (0, 0)
+    def drawOn(self, canvas, x, y, _sW=0):
+        canvas.saveState()
+        # Navy background
+        canvas.setFillColor(NAVY)
+        canvas.rect(0, 0, PAGE_W, PAGE_H, fill=1, stroke=0)
+        # Gold accent lines
+        canvas.setStrokeColor(GOLD)
+        canvas.setLineWidth(3)
+        canvas.line(72, PAGE_H - 180, PAGE_W - 72, PAGE_H - 180)
+        canvas.line(72, 200, PAGE_W - 72, 200)
+        # Gold diamond accent
+        cx = PAGE_W / 2
+        canvas.setFillColor(GOLD)
+        canvas.setFont('Helvetica-Bold', 28)
+        canvas.drawCentredString(cx, PAGE_H - 140, "◆  ◆  ◆")
+        # Title
+        canvas.setFillColor(WHITE)
+        canvas.setFont('Helvetica-Bold', 36)
+        canvas.drawCentredString(cx, PAGE_H - 260, "NicheHunt Database")
+        canvas.setFont('Helvetica-Bold', 48)
+        canvas.setFillColor(GOLD)
+        canvas.drawCentredString(cx, PAGE_H - 320, "2026")
+        # Subtitle
+        canvas.setFillColor(WHITE)
+        canvas.setFont('Helvetica', 16)
+        canvas.drawCentredString(cx, PAGE_H - 380, "170 YouTube Niches Analyzed & Ranked")
+        # Description
+        canvas.setFillColor(HexColor('#aaaaaa'))
+        canvas.setFont('Helvetica', 12)
+        canvas.drawCentredString(cx, PAGE_H - 420, "CPM Rates · Competition Levels · Growth Trends · Monetization Strategies")
+        # Branding
+        canvas.setFillColor(GOLD)
+        canvas.setFont('Helvetica-Bold', 18)
+        canvas.drawCentredString(cx, 140, "nichehunt.xyz")
+        canvas.setFillColor(HexColor('#888888'))
+        canvas.setFont('Helvetica', 10)
+        canvas.drawCentredString(cx, 118, "© 2026 NicheHunt. All rights reserved.")
+        canvas.restoreState()
 
-pdf.output("NicheHunt-Database-2026.pdf")
-print(f"PDF generated: {len(niches)} niches, {len(categories)} categories, {pdf.page_no()} pages")
+class BackPage(Flowable):
+    """Custom flowable for the back/CTA page."""
+    def __init__(self):
+        Flowable.__init__(self)
+        self.width = PAGE_W
+        self.height = PAGE_H
+    def wrap(self, availWidth, availHeight):
+        return (0, 0)
+    def drawOn(self, canvas, x, y, _sW=0):
+        canvas.saveState()
+        canvas.setFillColor(NAVY)
+        canvas.rect(0, 0, PAGE_W, PAGE_H, fill=1, stroke=0)
+        cx = PAGE_W / 2
+        canvas.setFillColor(WHITE)
+        canvas.setFont('Helvetica-Bold', 28)
+        canvas.drawCentredString(cx, PAGE_H - 280, "Want Live Updated Data?")
+        canvas.setFillColor(GOLD)
+        canvas.setFont('Helvetica-Bold', 36)
+        canvas.drawCentredString(cx, PAGE_H - 340, "nichehunt.xyz")
+        canvas.setFillColor(HexColor('#aaaaaa'))
+        canvas.setFont('Helvetica', 14)
+        canvas.drawCentredString(cx, PAGE_H - 400, "Real-time YouTube niche analytics, updated daily.")
+        canvas.drawCentredString(cx, PAGE_H - 425, "Find your perfect niche before the competition does.")
+        # Gold accent
+        canvas.setStrokeColor(GOLD)
+        canvas.setLineWidth(3)
+        canvas.line(150, PAGE_H - 460, PAGE_W - 150, PAGE_H - 460)
+        canvas.restoreState()
+
+def make_styles():
+    styles = getSampleStyleSheet()
+    styles.add(ParagraphStyle('SectionTitle', fontName='Helvetica-Bold', fontSize=20,
+                              textColor=NAVY, spaceAfter=12, spaceBefore=24))
+    styles.add(ParagraphStyle('SubTitle', fontName='Helvetica-Bold', fontSize=14,
+                              textColor=NAVY, spaceAfter=8, spaceBefore=16))
+    styles.add(ParagraphStyle('Body', fontName='Helvetica', fontSize=10,
+                              textColor=DARK_GRAY, spaceAfter=6, leading=14))
+    styles.add(ParagraphStyle('CellText', fontName='Helvetica', fontSize=8.5,
+                              textColor=DARK_GRAY, leading=11))
+    styles.add(ParagraphStyle('CellBold', fontName='Helvetica-Bold', fontSize=8.5,
+                              textColor=DARK_GRAY, leading=11))
+    styles.add(ParagraphStyle('TOCEntry', fontName='Helvetica', fontSize=11,
+                              textColor=DARK_GRAY, spaceAfter=4, leading=16))
+    styles.add(ParagraphStyle('TOCCat', fontName='Helvetica-Bold', fontSize=12,
+                              textColor=NAVY, spaceAfter=4, leading=16))
+    return styles
+
+def build_summary_table(title, items, value_key, value_fmt, styles):
+    """Build a compact top-10 table for executive summary."""
+    elements = []
+    elements.append(Paragraph(title, styles['SubTitle']))
+    header = ['#', 'Niche', 'Category', value_key]
+    data = [header]
+    for i, n in enumerate(items[:10], 1):
+        data.append([str(i), n['name'], n.get('category','').title(), value_fmt(n)])
+    col_widths = [25, 180, 100, 100]
+    t = Table(data, colWidths=col_widths)
+    style = [
+        ('BACKGROUND', (0, 0), (-1, 0), NAVY),
+        ('TEXTCOLOR', (0, 0), (-1, 0), WHITE),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, 0), 8),
+        ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+        ('FONTSIZE', (0, 1), (-1, -1), 8.5),
+        ('ROWBACKGROUNDS', (0, 1), (-1, -1), [WHITE, LIGHT_GRAY]),
+        ('GRID', (0, 0), (-1, -1), 0.5, HexColor('#cccccc')),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+        ('TOPPADDING', (0, 0), (-1, -1), 4),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
+        ('LEFTPADDING', (0, 0), (-1, -1), 6),
+    ]
+    t.setStyle(TableStyle(style))
+    elements.append(t)
+    elements.append(Spacer(1, 16))
+    return elements
+
+def build_category_table(cat_name, cat_niches, styles):
+    """Build a category section with header bar and table."""
+    elements = []
+    # Navy header bar
+    header_data = [[Paragraph(f'<font color="white"><b>{cat_name}</b></font> — {len(cat_niches)} niches',
+                              ParagraphStyle('cathead', fontName='Helvetica-Bold', fontSize=13,
+                                            textColor=WHITE, leading=18))]]
+    ht = Table(header_data, colWidths=[PAGE_W - 108])
+    ht.setStyle(TableStyle([
+        ('BACKGROUND', (0, 0), (-1, -1), NAVY),
+        ('TOPPADDING', (0, 0), (-1, -1), 8),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 8),
+        ('LEFTPADDING', (0, 0), (-1, -1), 12),
+    ]))
+    elements.append(ht)
+    elements.append(Spacer(1, 6))
+
+    # Table
+    header = ['Niche', 'Difficulty', 'CPM', 'Trend', 'Competition', 'Eng. Rate']
+    data = [header]
+    for n in sorted(cat_niches, key=lambda x: parse_cpm_avg(x.get('cpm', '$0')), reverse=True):
+        diff = n.get('difficulty', 'Unknown')
+        dc = difficulty_color(diff)
+        trend_status = n.get('trend', {}).get('status', 'Unknown')
+        comp = n.get('metrics', {}).get('competitionLevel', 'N/A')
+        eng = n.get('metrics', {}).get('avgEngagementRate', 'N/A')
+        if eng != 'N/A':
+            eng = f"{eng}%"
+        data.append([
+            Paragraph(n['name'], styles['CellBold']),
+            Paragraph(f'<font color="#{dc.hexval()[2:]}">{diff}</font>', styles['CellText']),
+            n.get('cpm', 'N/A'),
+            trend_status,
+            comp,
+            eng,
+        ])
+
+    col_widths = [130, 75, 65, 65, 70, 60]
+    t = Table(data, colWidths=col_widths, repeatRows=1)
+    style = [
+        ('BACKGROUND', (0, 0), (-1, 0), HexColor('#2a2a4e')),
+        ('TEXTCOLOR', (0, 0), (-1, 0), WHITE),
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+        ('FONTSIZE', (0, 0), (-1, 0), 8),
+        ('FONTNAME', (0, 1), (-1, -1), 'Helvetica'),
+        ('FONTSIZE', (0, 1), (-1, -1), 8.5),
+        ('ROWBACKGROUNDS', (0, 1), (-1, -1), [WHITE, LIGHT_GRAY]),
+        ('GRID', (0, 0), (-1, -1), 0.4, HexColor('#dddddd')),
+        ('LINEBELOW', (0, 0), (-1, 0), 1.5, GOLD),
+        ('VALIGN', (0, 0), (-1, -1), 'MIDDLE'),
+        ('TOPPADDING', (0, 0), (-1, -1), 4),
+        ('BOTTOMPADDING', (0, 0), (-1, -1), 4),
+        ('LEFTPADDING', (0, 0), (-1, -1), 6),
+    ]
+    t.setStyle(TableStyle(style))
+    elements.append(t)
+    elements.append(Spacer(1, 20))
+    return elements
+
+def build_pdf():
+    doc = SimpleDocTemplate(
+        "NicheHunt-Database-2026.pdf",
+        pagesize=letter,
+        topMargin=54, bottomMargin=54, leftMargin=54, rightMargin=54
+    )
+    styles = make_styles()
+    story = []
+
+    # Cover
+    build_cover(story)
+
+    # Table of Contents (placeholder page numbers - we'll use simple listing)
+    story.append(Paragraph("Table of Contents", styles['SectionTitle']))
+    story.append(Spacer(1, 8))
+    sorted_cats = sorted(categories.keys())
+    for cat in sorted_cats:
+        count = len(categories[cat])
+        story.append(Paragraph(f"<b>{cat}</b> — {count} niches", styles['TOCCat']))
+    story.append(Spacer(1, 12))
+    story.append(Paragraph("Executive Summary — Top 10 Rankings", styles['TOCEntry']))
+    story.append(Paragraph(f"Category Breakdowns — {len(sorted_cats)} Categories", styles['TOCEntry']))
+    story.append(PageBreak())
+
+    # Executive Summary
+    story.append(Paragraph("Executive Summary", styles['SectionTitle']))
+    story.append(Paragraph(
+        f"This report analyzes <b>{len(niches)} YouTube niches</b> across {len(categories)} categories, "
+        "ranking them by CPM rates, difficulty, competition levels, and growth trends. "
+        "Use this data to identify high-value content opportunities.",
+        styles['Body']))
+    story.append(Spacer(1, 8))
+
+    # Top 10 by CPM
+    by_cpm = sorted(niches, key=lambda x: parse_cpm_avg(x.get('cpm', '$0')), reverse=True)
+    story.extend(build_summary_table("💰 Top 10 by CPM", by_cpm, 'CPM',
+                                      lambda n: n.get('cpm', 'N/A'), styles))
+
+    # Top 10 Easiest
+    by_easy = sorted(niches, key=lambda x: x.get('difficultyScore', 100))
+    story.extend(build_summary_table("🟢 Top 10 Easiest to Enter", by_easy, 'Difficulty',
+                                      lambda n: n.get('difficulty', 'N/A'), styles))
+
+    # Top 10 Trending
+    by_trend = sorted(niches, key=lambda x: x.get('trend', {}).get('score', 0), reverse=True)
+    story.extend(build_summary_table("📈 Top 10 Trending", by_trend, 'Trend',
+                                      lambda n: n.get('trend', {}).get('status', 'N/A'), styles))
+
+    story.append(PageBreak())
+
+    # Category sections
+    for cat in sorted_cats:
+        story.extend(build_category_table(cat, categories[cat], styles))
+
+    # Back page
+    story.append(PageBreak())
+    story.append(BackPage())
+
+    doc.build(story, onFirstPage=header_footer, onLaterPages=header_footer)
+    print(f"✅ Generated NicheHunt-Database-2026.pdf")
+
+if __name__ == "__main__":
+    build_pdf()
