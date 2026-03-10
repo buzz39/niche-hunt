@@ -9,6 +9,214 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "how-to-pick-a-youtube-niche",
+    title: "How to Pick a YouTube Niche: A Data-Driven Framework for 2026",
+    description: "Learn how to pick a YouTube niche using data, not guesswork. This step-by-step framework covers CPM, competition, trends, and passion alignment to find your perfect niche.",
+    date: "2026-03-10",
+    author: "NicheHunt Team",
+    content: `
+# How to Pick a YouTube Niche: A Data-Driven Framework for 2026
+
+Picking a YouTube niche is the single highest-leverage decision you'll make as a creator. Get it right and growth feels effortless — every video compounds on the last. Get it wrong and you'll grind for months wondering why nothing works.
+
+The problem? Most advice boils down to "follow your passion" or "pick something profitable." Neither is enough on its own. You need a framework that balances what you can sustain with what the market actually rewards.
+
+Here's the exact process we recommend — backed by the same YouTube API data we use to build the [NicheHunt database](/).
+
+## Why Niche Selection Matters More Than Anything Else
+
+Before we get tactical, let's be clear about the stakes:
+
+- A finance channel at **$50 CPM** earns 10x more per view than a gaming channel at **$5 CPM**
+- A channel in a niche with a **15/100 difficulty score** can rank on page one within weeks; one at 80/100 might never rank
+- A rising niche lifts all your content automatically; a declining niche fights you every step
+
+Two creators with identical talent, work ethic, and upload frequency can have wildly different outcomes based solely on niche choice. This isn't opinion — it's what the [CPM data](/blog/youtube-cpm-by-niche-complete-guide) shows across 46+ niches.
+
+## Step 1: Start With Your Knowledge and Interests (But Don't Stop There)
+
+Yes, passion matters — but not because gurus say so. It matters for one practical reason: **you need to make 100+ videos.** If you pick a niche you find boring, you'll quit at video 30.
+
+Make a list of:
+- Topics you could talk about for 30 minutes without preparation
+- Skills you have that others want to learn
+- Industries you've worked in
+- Problems you've solved for yourself or others
+- Hobbies you've invested serious time in
+
+This is your starting pool. Most people have 5–15 potential niches on this list. The next steps will narrow it down.
+
+## Step 2: Check the CPM — Is There Money in It?
+
+Not all niches pay equally. [YouTube CPM varies dramatically](/blog/youtube-cpm-by-niche-complete-guide) by topic:
+
+- **Finance & Investing:** $40–$60 CPM
+- **Business & SaaS:** $25–$45 CPM
+- **Technology:** $20–$35 CPM
+- **Health & Wellness:** $15–$30 CPM
+- **Entertainment & Lifestyle:** $5–$15 CPM
+
+If two niches interest you equally, always lean toward the one with higher CPM. The effort per video is roughly the same, but the revenue per view can differ by 10x.
+
+**Rule of thumb:** Aim for niches with at least $15 CPM unless you have a specific strategy for monetizing outside AdSense (courses, affiliate programs, services).
+
+## Step 3: Evaluate Competition With Real Data
+
+"Competition" isn't just a feeling — it's measurable. Here's what to check:
+
+### Search YouTube for Your Niche Keywords
+
+Type your niche's core keyword into YouTube search. Look at the top 10 results:
+- **Subscriber counts** of ranking channels — are they all 500K+, or are smaller channels ranking too?
+- **Video age** — if the top results are 2–3 years old, there's room for fresh content
+- **View counts** — high views on old videos means sustained demand
+
+### Check Channel Concentration
+
+In competitive niches, one or two channels dominate with millions of subscribers. In [low-competition niches](/blog/how-to-find-low-competition-youtube-niches), the landscape is fragmented — no single channel owns the space.
+
+**Green flags:**
+- No channel in the niche has over 500K subscribers
+- Multiple small channels (10K–50K) are growing steadily
+- Top-ranking videos have moderate production quality (you can do better)
+
+**Red flags:**
+- One channel dominates with 2M+ subscribers
+- The top 5 channels all have professional production teams
+- Search results are flooded with recent uploads from big creators
+
+### Use Difficulty Scores
+
+In the [NicheHunt database](/), every niche gets a difficulty score from 0–100. Anything under 30 is a strong opportunity. Under 20 is wide open. Over 50, expect a serious grind.
+
+## Step 4: Validate Demand With Google Trends
+
+A niche can be low competition because nobody cares about it. You need to confirm that people are actually searching for your topic.
+
+Go to [Google Trends](https://trends.google.com) and check:
+
+1. **5-year trend line** — is interest stable, rising, or declining?
+2. **Seasonal patterns** — tax content spikes in Q1, gift guides spike in Q4
+3. **Related rising queries** — these reveal sub-niches and content ideas
+4. **Geographic interest** — strong US/UK interest means higher CPM (advertisers pay more for English-speaking audiences)
+
+**Ideal signal:** Stable or rising trend with no dramatic drops. Seasonal spikes are fine as long as there's a baseline of year-round interest.
+
+## Step 5: Test for Content Depth
+
+Can you make 100 videos in this niche without running out of ideas? This is the question that eliminates most niches.
+
+**Quick test:** Open a spreadsheet and brainstorm video titles. If you can list 50 in 20 minutes, the niche has depth. If you stall at 15, it's too narrow.
+
+Some niches that seem narrow actually have incredible depth:
+- "Credit Card Rewards" → new cards, strategy comparisons, points maximization, travel hacks, annual fee breakdowns, specific airline programs...
+- "Cybersecurity Tips" → password managers, VPN reviews, breach news, privacy tools, corporate security, ethical hacking basics...
+
+Other niches that seem broad are actually shallow:
+- "Motivation" → the same quotes repackaged endlessly
+- "Life hacks" → runs out of original ideas fast
+
+If you want to see which niches have proven content depth, check how many active channels exist in each niche in [our database](/).
+
+## Step 6: Consider Faceless Viability
+
+If you're planning a [faceless channel](/blog/faceless-youtube-channel-ideas) or a [cash cow operation](/blog/cash-cow-youtube-channels-guide), the niche needs to work without on-camera presence.
+
+**Great for faceless:**
+- Finance (screen recordings, charts, graphics)
+- Tech (software demos, screen captures)
+- Productivity (app walkthroughs, templates)
+- Education (animations, slideshows)
+- Cybersecurity (terminal footage, diagrams)
+
+**Hard to do faceless:**
+- Cooking (viewers want to see the process)
+- Fitness (form demonstrations need a person)
+- Travel (audiences expect real footage)
+- Fashion (inherently personal)
+
+If you're going faceless, also consider the [automation potential](/blog/youtube-automation-faceless-channels-2026) — can you build systems around this niche's content production?
+
+## Step 7: Score and Rank Your Options
+
+Now bring it all together. For each niche on your shortlist, score these factors on a 1–5 scale:
+
+| Factor | Weight | Question |
+|--------|--------|----------|
+| Interest | 2x | Can I make 100+ videos without burning out? |
+| CPM | 3x | Is the CPM above $15? |
+| Competition | 3x | Is the difficulty score under 30? |
+| Demand | 2x | Is Google Trends stable or rising? |
+| Content Depth | 1x | Can I brainstorm 50+ video ideas easily? |
+| Faceless Viability | 1x | Does it work without on-camera presence? |
+
+Multiply each score by its weight. The niche with the highest total wins.
+
+**Example scoring:**
+
+| Factor | Weight | "Credit Card Rewards" | "Gaming Highlights" |
+|--------|--------|-----------------------|---------------------|
+| Interest | 2x | 3 (6) | 5 (10) |
+| CPM | 3x | 5 (15) | 1 (3) |
+| Competition | 3x | 5 (15) | 1 (3) |
+| Demand | 2x | 4 (8) | 4 (8) |
+| Content Depth | 1x | 5 (5) | 4 (4) |
+| Faceless | 1x | 5 (5) | 3 (3) |
+| **Total** | | **54** | **31** |
+
+The data makes the decision obvious — even though gaming is "more fun," credit card rewards is the dramatically better business decision.
+
+## Step 8: Run a 30-Day Test
+
+Don't commit forever based on spreadsheet analysis. Run a real-world test:
+
+1. **Create 10–12 videos** in your chosen niche over 30 days
+2. **Track impressions, CTR, and watch time** — is YouTube showing your content to people?
+3. **Monitor your energy** — are you still excited at video 10, or dreading it?
+4. **Check comments and engagement** — are viewers asking for more?
+
+If the signals are positive after 30 days, commit. If the data is flat and you're already bored, try your second-ranked niche.
+
+## The Biggest Niche Selection Mistakes
+
+### Picking Based on What's Popular Right Now
+
+Trending niches attract a flood of creators. By the time you see a niche trending on YouTube, dozens of channels have already launched. Look for niches that are **rising but not yet mainstream** — that's the sweet spot.
+
+### Going Too Broad
+
+"Finance" isn't a niche. "Credit card rewards for travel hackers" is. The narrower you start, the faster you'll grow. You can always expand later once you've built authority.
+
+### Going Too Narrow
+
+"Tax optimization for freelance graphic designers in Texas" is too narrow — you'll run out of content and audience. Find the balance between focused and sustainable.
+
+### Ignoring the Numbers
+
+"I don't care about CPM, I just want to make content I love." That's fine as a hobby. But if you want YouTube to be a business — or even a meaningful side income — the numbers matter. A channel earning $300/month feels very different from one earning $3,000/month, and the difference is often just niche selection.
+
+### Copying What Worked 2 Years Ago
+
+The YouTube landscape shifts constantly. Niches that were wide open in 2024 might be saturated by 2026. Always check **current** competition data, not dated blog posts or old YouTube videos about "top niches."
+
+## Your Niche Awaits — Use Data to Find It
+
+Picking a YouTube niche doesn't have to be a leap of faith. With the right data, it's a calculated decision that stacks the odds in your favor.
+
+Here's your action plan:
+1. List your interests and knowledge areas
+2. Check CPM ranges for each
+3. Evaluate competition (or use our difficulty scores)
+4. Validate demand on Google Trends
+5. Test content depth with a brainstorm session
+6. Score, rank, and run a 30-day test
+
+**[→ Explore the NicheHunt database](/)** — 46+ niches with CPM estimates, difficulty scores, trend data, and competition analysis. All sourced from the YouTube Data API. Skip weeks of manual research and make your niche decision with confidence. One-time $9 access, updated monthly.
+
+The best YouTube channels aren't built on luck — they're built on data. Start with the right niche and everything else gets easier.
+`
+  },
+  {
     slug: "how-to-find-trending-youtube-topics",
     title: "How to Find Trending YouTube Topics Before They Blow Up",
     description: "Learn proven methods to find trending YouTube topics before competitors. Use Google Trends, YouTube API data, and niche research tools to spot viral opportunities early.",
