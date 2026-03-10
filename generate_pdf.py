@@ -286,6 +286,11 @@ def build_pdf():
         "Use this data to identify high-value content opportunities.",
         styles['Body']))
     story.append(Spacer(1, 8))
+    story.append(Paragraph(
+        "📱 <b>LIVE DATA ACCESS:</b> This PDF is a snapshot. For live, continuously updated data, "
+        "visit <b>nichehunt.xyz</b> — your purchase includes lifetime access to the live database.",
+        styles['Body']))
+    story.append(Spacer(1, 8))
 
     # Top 10 by CPM
     by_cpm = sorted(niches, key=lambda x: parse_cpm_avg(x.get('cpm', '$0')), reverse=True)

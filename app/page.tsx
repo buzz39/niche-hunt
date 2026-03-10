@@ -34,10 +34,42 @@ export default function Home() {
   const [sortBy, setSortBy] = useState<'name' | 'difficulty' | 'cpm'>('cpm');
   const [searchQuery, setSearchQuery] = useState('');
   const [unlockAnimation, setUnlockAnimation] = useState(false);
+  const [autoUnlockBanner, setAutoUnlockBanner] = useState(false);
 
   useEffect(() => {
     const stored = localStorage.getItem('nichehunt_unlocked');
-    if (stored === 'true') setIsUnlocked(true);
+    if (stored === 'true') {
+      setIsUnlocked(true);
+      return;
+    }
+
+    // Auto-unlock via URL parameter (Gumroad redirect)
+    const params = new URLSearchParams(window.location.search);
+    const licenseKey = params.get('license_key');
+    if (licenseKey && licenseKey.trim().length >= 5) {
+      // Clean URL immediately
+      window.history.replaceState({}, '', window.location.pathname);
+      // Verify the key
+      fetch('/api/verify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ license_key: licenseKey.trim() }),
+      })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            localStorage.setItem('nichehunt_unlocked', 'true');
+            localStorage.setItem('nichehunt_key', licenseKey.trim());
+            setUnlockAnimation(true);
+            setAutoUnlockBanner(true);
+            setTimeout(() => {
+              setIsUnlocked(true);
+              setUnlockAnimation(false);
+            }, 600);
+          }
+        })
+        .catch(() => {});
+    }
   }, []);
 
   const handlePurchase = () => {
@@ -124,6 +156,14 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-200 font-sans selection:bg-emerald-500 selection:text-white">
+      {/* Auto-unlock success banner */}
+      {autoUnlockBanner && (
+        <div className="fixed top-0 left-0 right-0 z-[100] bg-emerald-500 text-slate-950 text-center py-3 px-4 font-semibold shadow-lg animate-pulse">
+          🎉 Purchase confirmed! All {totalNiches} niches unlocked.
+          <button onClick={() => setAutoUnlockBanner(false)} className="ml-4 text-slate-800 hover:text-slate-950 font-bold">✕</button>
+        </div>
+      )}
+
       {/* Navbar */}
       <nav className="border-b border-slate-800 bg-slate-900/50 backdrop-blur-md sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -173,7 +213,7 @@ export default function Home() {
               <span>Data sourced from YouTube API</span>
               {!isUnlocked && (
                 <button onClick={handleRestore} disabled={verifying} className="text-emerald-500 hover:text-emerald-400 underline underline-offset-2 transition-colors disabled:opacity-50">
-                  {verifying ? 'Verifying...' : 'Restore Purchase'}
+                  {verifying ? 'Verifying...' : 'Already purchased? Enter license key'}
                 </button>
               )}
             </div>
@@ -323,6 +363,12 @@ export default function Home() {
                   Get Instant Access — $9
                 </button>
                 <p className="text-xs text-slate-500">One-time payment • 30-day money-back guarantee</p>
+                <p className="text-xs text-slate-400 mt-2">
+                  Already purchased on Gumroad?{' '}
+                  <button onClick={handleRestore} disabled={verifying} className="text-emerald-500 hover:text-emerald-400 underline underline-offset-2">
+                    {verifying ? 'Verifying...' : 'Enter your license key'}
+                  </button>
+                </p>
               </div>
             </div>
           )}
