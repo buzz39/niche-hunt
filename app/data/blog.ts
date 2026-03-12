@@ -9,6 +9,195 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "youtube-niche-research-tools",
+    title: "7 Best YouTube Niche Research Tools in 2026 (Free & Paid)",
+    description: "Compare the best YouTube niche research tools for 2026. Find high-CPM, low-competition niches faster with these data-driven tools — from free options to premium databases.",
+    date: "2026-03-12",
+    author: "NicheHunt Team",
+    content: `
+# 7 Best YouTube Niche Research Tools in 2026 (Free & Paid)
+
+Choosing a YouTube niche without research tools is like picking stocks by throwing darts. You might get lucky — but you probably won't. The right niche research tool shows you exactly where the opportunity is: which niches have [high CPM](/blog/youtube-cpm-by-niche-complete-guide), low competition, and rising demand.
+
+We tested every major tool available in 2026 and ranked them by what actually matters: data quality, ease of use, and whether they help you make a better niche decision.
+
+## Why You Need a Niche Research Tool
+
+Manual research takes weeks. You'd need to:
+
+- Search dozens of keywords on YouTube and analyze top channels
+- Cross-reference Google Trends for every potential niche
+- Estimate CPM from scattered creator reports and forums
+- Calculate competition scores by hand across hundreds of channels
+
+A good niche research tool compresses this into minutes. More importantly, it gives you **comparable data** across niches — so you're not comparing vibes, you're comparing numbers.
+
+The difference between a [$5 CPM niche and a $50 CPM niche](/blog/youtube-cpm-by-niche-complete-guide) is a 10x revenue multiplier. Getting this decision right is worth every dollar spent on tools.
+
+## 1. NicheHunt — Best for YouTube-Specific Niche Comparison
+
+**Price:** $9 one-time | **Best for:** Comparing niches side-by-side with YouTube API data
+
+[NicheHunt](/) was built specifically for the problem most tools ignore: comparing entire niches, not just keywords. While other tools help you find video topics within a niche, NicheHunt helps you decide which niche to enter in the first place.
+
+**What you get:**
+- **46+ YouTube niches** analyzed with real YouTube Data API data
+- **Difficulty scores (0–100)** based on channel concentration, subscriber distribution, and engagement
+- **CPM estimates** sourced from industry data and creator surveys
+- **Google Trends integration** showing whether each niche is rising, stable, or declining
+- **Competition metrics** including average subscribers, top channel dominance, and upload frequency
+
+**Why it stands out:** Most tools focus on keywords. NicheHunt focuses on the strategic decision that comes before keyword research — [picking the right niche](/blog/how-to-pick-a-youtube-niche). If you're starting a new channel, launching a [cash cow operation](/blog/cash-cow-youtube-channels-guide), or exploring [faceless channel ideas](/blog/faceless-youtube-channel-ideas), this is where you start.
+
+**Limitation:** It's a database for niche-level decisions, not a keyword research tool. You'll still need a tool like TubeBuddy or vidIQ for video-level SEO once you've picked your niche.
+
+**[→ Explore the NicheHunt database](/)** — one-time $9 access, updated monthly.
+
+## 2. TubeBuddy — Best Free Keyword Research
+
+**Price:** Free (limited) / $5–$50/month | **Best for:** Video-level keyword research and SEO
+
+TubeBuddy is a browser extension that integrates directly into YouTube Studio. It's the most popular YouTube SEO tool for a reason — the keyword explorer shows search volume, competition scores, and optimization suggestions.
+
+**Key features:**
+- Keyword Explorer with search volume estimates
+- Competition score for individual keywords
+- SEO audit for your existing videos
+- A/B testing for thumbnails (paid tier)
+- Bulk processing tools
+
+**Best for:** Once you've [chosen your niche](/blog/how-to-find-low-competition-youtube-niches), use TubeBuddy to find specific video keywords within that niche. It excels at video-level optimization but doesn't help you compare niches at the macro level.
+
+**Limitation:** The free tier is very limited. Competition scores are keyword-level, not niche-level — you can't easily compare "finance" vs. "tech" as categories.
+
+## 3. vidIQ — Best for Competitor Analysis
+
+**Price:** Free (limited) / $8–$50/month | **Best for:** Analyzing competitor channels and trending videos
+
+vidIQ does what TubeBuddy does but with a stronger focus on competitor intelligence. The "Competitors" tool lets you track other channels' performance, upload schedules, and top-performing content.
+
+**Key features:**
+- Keyword research with trend visualization
+- Channel audit and competitor tracking
+- Daily ideas based on trending topics
+- AI-powered title and description suggestions
+- Real-time stats overlay on YouTube
+
+**Best for:** Understanding what's working for existing channels in your niche. Pairs well with our guide on [finding trending topics](/blog/how-to-find-trending-youtube-topics) — use vidIQ to spot what competitors are publishing, then move faster.
+
+**Limitation:** Similar to TubeBuddy, it's designed for video-level optimization within a niche you've already chosen. Not ideal for the initial niche selection decision.
+
+## 4. Google Trends — Best Free Trend Validation
+
+**Price:** Free | **Best for:** Validating demand and spotting trends
+
+Google Trends is the most underrated research tool available. It won't tell you about YouTube competition or CPM, but it answers the most fundamental question: **are people actually interested in this topic?**
+
+**How to use it for niche research:**
+- Compare 2–3 potential niches head-to-head over 5 years
+- Check for seasonal patterns (tax content spikes in Q1, gift guides in Q4)
+- Find "Breakout" related queries — these are early-stage trends with 250%+ growth
+- Filter by YouTube Search specifically for platform-relevant data
+
+**Best for:** The validation step. After identifying promising niches in [NicheHunt's database](/), confirm demand is stable or rising with Google Trends.
+
+**Limitation:** No competition data, no CPM estimates, no YouTube-specific metrics. It shows demand but not supply.
+
+## 5. Social Blade — Best for Channel Growth Tracking
+
+**Price:** Free / $4–$10/month | **Best for:** Tracking channel growth rates and estimated earnings
+
+Social Blade provides public analytics for any YouTube channel: subscriber growth, estimated monthly earnings, video upload frequency, and grade ratings.
+
+**How to use it for niche research:**
+- Look up the top 10 channels in a potential niche
+- Check their growth trajectories — are they gaining or losing subscribers?
+- Estimate earnings ranges (take these with a grain of salt)
+- Compare channel grades across niches
+
+**Best for:** Validating niche health. If the top channels in a niche are all growing, that's a green flag. If they're stagnating or declining, the niche might be saturating.
+
+**Limitation:** Earnings estimates are rough. Growth data is channel-specific — you need to manually check multiple channels to get a niche-level picture.
+
+## 6. Ahrefs / SEMrush — Best for Cross-Platform Keyword Research
+
+**Price:** $99–$199/month | **Best for:** Deep keyword research across Google and YouTube
+
+Enterprise SEO tools like Ahrefs and SEMrush include YouTube keyword databases. They show search volumes, keyword difficulty, and related terms at a level of detail that free tools can't match.
+
+**How to use for niche research:**
+- Find YouTube-specific search volumes for niche keywords
+- Analyze keyword difficulty to gauge content competition
+- Discover content gaps — topics with high search volume and few videos
+- Track keyword trends over time
+
+**Best for:** Serious creators and agencies who need professional-grade keyword data and are already using these tools for other projects.
+
+**Limitation:** Expensive. Overkill for someone just picking a niche. The YouTube data is a subset of their broader SEO features — you're paying for a lot you won't use.
+
+## 7. YouTube Studio Analytics — Best for Existing Channels
+
+**Price:** Free | **Best for:** Understanding your current audience and testing niches
+
+If you already have a YouTube channel, your own analytics are a goldmine of niche research data. YouTube Studio shows exactly what your audience watches, searches for, and engages with.
+
+**Key reports for niche research:**
+- **Search terms** — what queries bring viewers to your videos?
+- **Audience interests** — what other channels and topics does your audience watch?
+- **Traffic sources** — is most traffic from search (keyword-driven) or suggested (algorithm-driven)?
+- **Revenue per video** — your actual CPM data for different topics
+
+**Best for:** Creators who want to pivot or expand into adjacent niches. Your existing data tells you where your audience overlaps with new opportunities.
+
+**Limitation:** Only useful if you already have a channel with meaningful traffic. Not helpful for brand-new creators.
+
+## How to Combine These Tools: The Optimal Workflow
+
+No single tool does everything. Here's the workflow we recommend:
+
+### Step 1: Strategic Niche Selection
+Use **[NicheHunt](/)** to compare niches at the macro level. Filter by difficulty score, CPM range, and trend direction. Shortlist 3–5 niches that match your interests and goals.
+
+### Step 2: Demand Validation
+Take your shortlist to **Google Trends**. Compare the niches head-to-head. Eliminate any with declining interest. Bonus: check "Related queries" for sub-niche ideas.
+
+### Step 3: Competition Deep-Dive
+Use **Social Blade** to analyze the top 10 channels in each remaining niche. How fast are they growing? How often do they upload? Are there gaps a new channel could fill?
+
+### Step 4: Keyword Research
+Once you've chosen your niche, switch to **TubeBuddy** or **vidIQ** to find specific video keywords. Target [low-competition keywords](/blog/how-to-find-low-competition-youtube-niches) with decent search volume for your first 20 videos.
+
+### Step 5: Ongoing Optimization
+Use **YouTube Studio Analytics** to track what's working and refine your strategy. Monitor [trending topics](/blog/how-to-find-trending-youtube-topics) with vidIQ's daily ideas feature.
+
+## Free vs. Paid: What's Actually Worth Paying For?
+
+**Worth paying for:**
+- **NicheHunt ($9 one-time)** — the niche decision is too important to guess. $9 for data that could save you months in the wrong niche is the best ROI in YouTube.
+- **TubeBuddy or vidIQ ($5–$10/month)** — the free tiers are functional, but paid unlocks meaningful keyword data. Pick one, not both.
+
+**Not worth paying for (yet):**
+- **Ahrefs/SEMrush** — unless you're running an agency or have multiple sites. Way too expensive for niche research alone.
+- **Social Blade Premium** — the free version gives you 90% of what you need.
+
+**Always free:**
+- **Google Trends** — irreplaceable and completely free.
+- **YouTube Studio** — if you have a channel, this data is already yours.
+
+**Total cost for a complete toolkit: $14–$19/month + $9 one-time.** That's less than a single meal for tools that determine whether your channel earns $500/month or $5,000/month.
+
+## The Tool That Matters Most? Data-Driven Thinking
+
+Tools are only as good as the person using them. The most expensive keyword research subscription won't help if you pick a niche based on what sounds fun rather than what the data shows.
+
+The creators who succeed on YouTube in 2026 are the ones who make their first decision — the niche — using real numbers. Everything after that (scripts, thumbnails, SEO) is optimization. But you can't optimize your way out of a [bad niche choice](/blog/how-to-pick-a-youtube-niche).
+
+Start with the data. Then create content.
+
+**[→ Start your niche research with NicheHunt](/)** — 46+ YouTube niches with CPM estimates, difficulty scores, trend data, and competition analysis. All sourced from the YouTube Data API. One-time $9, updated monthly.
+`
+  },
+  {
     slug: "how-to-pick-a-youtube-niche",
     title: "How to Pick a YouTube Niche: A Data-Driven Framework for 2026",
     description: "Learn how to pick a YouTube niche using data, not guesswork. This step-by-step framework covers CPM, competition, trends, and passion alignment to find your perfect niche.",
